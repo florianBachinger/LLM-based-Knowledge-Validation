@@ -1,0 +1,39 @@
+{
+  "name": "LaTeX",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "vscode",
+  "runServices": [
+    "vscode"
+  ],
+  "shutdownAction": "stopCompose",
+  "workspaceFolder": "/workspace",
+  "postCreateCommand": "",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "james-yu.latex-workshop"
+      ],
+      "settings": {
+        // Latex settings
+        "latex-workshop.linting.chktex.enabled": true,
+        "latex-workshop.linting.chktex.exec.path": "chktex",
+        "latex-workshop.latex.clean.subfolder.enabled": true,
+        "latex-workshop.latex.autoClean.run": "onBuilt",
+        "latex-workshop.formatting.latex": "latexindent",
+        "editor.formatOnSave": true,
+        "files.associations": {
+          "*.tex": "latex"
+        },
+        "latex-workshop.latexindent.path": "latexindent",
+        "latex-workshop.latexindent.args": [
+          "-c",
+          "%DIR%/",
+          "%TMPFILE%",
+          "-y=defaultIndent: '%INDENT%'"
+        ]
+      }
+    }
+  }
+}

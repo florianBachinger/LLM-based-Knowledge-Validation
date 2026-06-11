@@ -1,0 +1,469 @@
+Equation;Variable domains;Variables;Equation-Description;Taxonomy-Domain;Taxonomy-Subdomain;Taxonomy-Specific;Equation_Full
+I.6.2a;$\theta \in [1.0,3.0]$;$\theta$: angle/position;Gaussian distribution (normal distribution with $\sigma=1$);Mathematics;Probability Theory;Gaussian Distribution;I.6.20a
+I.6.2;$\sigma \in [1.0,3.0]$;$\sigma$: std deviation;Gaussian/normal distribution probability density;Mathematics;Probability Theory;Gaussian Distribution;I.6.20
+I.6.2;$\theta \in [1.0,3.0]$;$\theta$: variable;Gaussian/normal distribution probability density;Mathematics;Probability Theory;Gaussian Distribution;I.6.20
+I.6.2b;$\sigma \in [1.0,3.0]$;$\sigma$: std deviation;Gaussian distribution with mean $\theta_1$;Mathematics;Probability Theory;Gaussian Distribution;I.6.20b
+I.6.2b;$\theta \in [1.0,3.0]$;$\theta$: variable;Gaussian distribution with mean $\theta_1$;Mathematics;Probability Theory;Gaussian Distribution;I.6.20b
+I.6.2b;$\theta_1 \in [1.0,3.0]$;$\theta_1$: mean;Gaussian distribution with mean $\theta_1$;Mathematics;Probability Theory;Gaussian Distribution;I.6.20b
+I.8.14;$\mathit{x1} \in [1.0,5.0]$;$x_1$: x-coordinate of point 1;Euclidean distance between two points in 2D;Mathematics;Geometry;Euclidean Distance;I.8.14
+I.8.14;$\mathit{x2} \in [1.0,5.0]$;$x_2$: x-coordinate of point 2;Euclidean distance between two points in 2D;Mathematics;Geometry;Euclidean Distance;I.8.14
+I.8.14;$\mathit{y1} \in [1.0,5.0]$;$y_1$: y-coordinate of point 1;Euclidean distance between two points in 2D;Mathematics;Geometry;Euclidean Distance;I.8.14
+I.8.14;$\mathit{y2} \in [1.0,5.0]$;$y_2$: y-coordinate of point 2;Euclidean distance between two points in 2D;Mathematics;Geometry;Euclidean Distance;I.8.14
+I.9.18;$\mathit{m1} \in [1.0,2.0]$;$m_1$: mass of body 1;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{m2} \in [1.0,2.0]$;$m_2$: mass of body 2;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{G} \in [1.0,2.0]$;$G$: gravitational constant;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{x1} \in [3.0,4.0]$;$x_1$: x-coordinate of body 1;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{x2} \in [1.0,2.0]$;$x_2$: x-coordinate of body 2;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{y1} \in [3.0,4.0]$;$y_1$: y-coordinate of body 1;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{y2} \in [1.0,2.0]$;$y_2$: y-coordinate of body 2;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{z1} \in [3.0,4.0]$;$z_1$: z-coordinate of body 1;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.9.18;$\mathit{z2} \in [1.0,2.0]$;$z_2$: z-coordinate of body 2;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;I.9.18
+I.10.7;$\mathit{m_0} \in [1.0,5.0]$;$m_0$: rest mass;Relativistic mass (special relativity);Physics;Relativity;Special Relativity;I.10.7
+I.10.7;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic mass (special relativity);Physics;Relativity;Special Relativity;I.10.7
+I.10.7;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Relativistic mass (special relativity);Physics;Relativity;Special Relativity;I.10.7
+I.11.19;$\mathit{x1} \in [1.0,5.0]$;$x_1$: 1st component of vector $\mathbf{x}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.11.19;$\mathit{x2} \in [1.0,5.0]$;$x_2$: 2nd component of vector $\mathbf{x}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.11.19;$\mathit{x3} \in [1.0,5.0]$;$x_3$: 3rd component of vector $\mathbf{x}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.11.19;$\mathit{y1} \in [1.0,5.0]$;$y_1$: 1st component of vector $\mathbf{y}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.11.19;$\mathit{y2} \in [1.0,5.0]$;$y_2$: 2nd component of vector $\mathbf{y}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.11.19;$\mathit{y3} \in [1.0,5.0]$;$y_3$: 3rd component of vector $\mathbf{y}$;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;I.11.19
+I.12.1;$\mathit{mu} \in [1.0,5.0]$;$Nn$: number density;Total magnetic moment (dipole moment);Physics;Electromagnetism;Magnetic Dipole;I.12.1
+I.12.1;$\mathit{Nn} \in [1.0,5.0]$;$\mu$: magnetic moment;Total magnetic moment (dipole moment);Physics;Electromagnetism;Magnetic Dipole;I.12.1
+I.12.2;$\mathit{q1} \in [1.0,5.0]$;$q_1$: charge of particle 1;Coulomb's law (electrostatic force);Physics;Electromagnetism;Electrostatics;I.12.2
+I.12.2;$\mathit{q2} \in [1.0,5.0]$;$q_2$: charge of particle 2;Coulomb's law (electrostatic force);Physics;Electromagnetism;Electrostatics;I.12.2
+I.12.2;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of medium;Coulomb's law (electrostatic force);Physics;Electromagnetism;Electrostatics;I.12.2
+I.12.2;$\mathit{r} \in [1.0,5.0]$;$r$: distance between charges;Coulomb's law (electrostatic force);Physics;Electromagnetism;Electrostatics;I.12.2
+I.12.4;$\mathit{q1} \in [1.0,5.0]$;$q_1$: charge;Electric field magnitude from point charge;Physics;Electromagnetism;Electric Field;I.12.4
+I.12.4;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Electric field magnitude from point charge;Physics;Electromagnetism;Electric Field;I.12.4
+I.12.4;$\mathit{r} \in [1.0,5.0]$;$r$: distance;Electric field magnitude from point charge;Physics;Electromagnetism;Electric Field;I.12.4
+I.12.5;$\mathit{q2} \in [1.0,5.0]$;$Ef$: electric field;Electric force on charge in field;Physics;Electromagnetism;Electric Force;I.12.5
+I.12.5;$\mathit{Ef} \in [1.0,5.0]$;$q_2$: charge;Electric force on charge in field;Physics;Electromagnetism;Electric Force;I.12.5
+I.12.11;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;I.12.11
+I.12.11;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: electric field;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;I.12.11
+I.12.11;$\mathit{B} \in [1.0,5.0]$;$B$: magnetic field;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;I.12.11
+I.12.11;$\mathit{v} \in [1.0,5.0]$;$v$: velocity;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;I.12.11
+I.12.11;$\theta \in [1.0,5.0]$;$\theta$: angle;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;I.12.11
+I.13.4;$\mathit{m} \in [1.0,5.0]$;$m$: mass of particle;Kinetic energy in 3D;Physics;Classical Mechanics;Kinetic Energy;I.13.4
+I.13.4;$\mathit{u} \in [1.0,5.0]$;$u$: velocity x-component;Kinetic energy in 3D;Physics;Classical Mechanics;Kinetic Energy;I.13.4
+I.13.4;$\mathit{v} \in [1.0,5.0]$;$v$: velocity y-component;Kinetic energy in 3D;Physics;Classical Mechanics;Kinetic Energy;I.13.4
+I.13.4;$\mathit{w} \in [1.0,5.0]$;$w$: velocity z-component;Kinetic energy in 3D;Physics;Classical Mechanics;Kinetic Energy;I.13.4
+I.13.12;$\mathit{G} \in [1.0,5.0]$;$G$: gravitational constant;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;I.13.12
+I.13.12;$\mathit{m1} \in [1.0,5.0]$;$m_1$: mass of body 1;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;I.13.12
+I.13.12;$\mathit{m2} \in [1.0,5.0]$;$m_2$: mass of body 2;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;I.13.12
+I.13.12;$\mathit{r1} \in [1.0,5.0]$;$r_1$: initial radial distance;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;I.13.12
+I.13.12;$\mathit{r2} \in [1.0,5.0]$;$r_2$: final radial distance;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;I.13.12
+I.14.3;$\mathit{m} \in [1.0,5.0]$;$m$: mass;Gravitational potential energy;Physics;Classical Mechanics;Gravitational Potential;I.14.3
+I.14.3;$\mathit{g} \in [1.0,5.0]$;$g$: grav acceleration;Gravitational potential energy;Physics;Classical Mechanics;Gravitational Potential;I.14.3
+I.14.3;$\mathit{z} \in [1.0,5.0]$;$z$: height;Gravitational potential energy;Physics;Classical Mechanics;Gravitational Potential;I.14.3
+I.14.4;$\mathit{k_{spring}} \in [1.0,5.0]$;$k_{spring}$: spring constant;Elastic potential energy (Hooke's law);Physics;Classical Mechanics;Elastic Energy;I.14.4
+I.14.4;$\mathit{x} \in [1.0,5.0]$;$x$: displacement;Elastic potential energy (Hooke's law);Physics;Classical Mechanics;Elastic Energy;I.14.4
+I.15.3x;$\mathit{x} \in [5.0,10.0]$;$x$: position;Lorentz transformation for position (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3x
+I.15.3x;$\mathit{u} \in [1.0,2.0]$;$t$: time;Lorentz transformation for position (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3x
+I.15.3x;$\mathit{c} \in [3.0,20.0]$;$u$: relative velocity;Lorentz transformation for position (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3x
+I.15.3x;$\mathit{t} \in [1.0,2.0]$;$c$: speed of light;Lorentz transformation for position (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3x
+I.15.3t;$\mathit{x} \in [1.0,5.0]$;$t$: time;Lorentz transformation for time (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3t
+I.15.3t;$\mathit{c} \in [3.0,10.0]$;$x$: position;Lorentz transformation for time (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3t
+I.15.3t;$\mathit{u} \in [1.0,2.0]$;$u$: relative velocity;Lorentz transformation for time (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3t
+I.15.3t;$\mathit{t} \in [1.0,5.0]$;$c$: speed of light;Lorentz transformation for time (special relativity);Physics;Relativity;Lorentz Transformation;I.15.3t
+I.15.1;$\mathit{m_0} \in [1.0,5.0]$;$m_0$: rest mass;Relativistic momentum;Physics;Relativity;Special Relativity;I.15.10
+I.15.1;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic momentum;Physics;Relativity;Special Relativity;I.15.10
+I.15.1;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Relativistic momentum;Physics;Relativity;Special Relativity;I.15.10
+I.16.6;$\mathit{u} \in [1.0,5.0]$;$u$: velocity of object in frame S';Relativistic velocity addition;Physics;Relativity;Velocity Addition;I.16.6
+I.16.6;$\mathit{v} \in [1.0,5.0]$;$v$: velocity of frame S' relative to S;Relativistic velocity addition;Physics;Relativity;Velocity Addition;I.16.6
+I.16.6;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light in vacuum;Relativistic velocity addition;Physics;Relativity;Velocity Addition;I.16.6
+I.18.4;$\mathit{m1} \in [1.0,5.0]$;$m_1$: mass of particle 1;Center of mass position;Physics;Classical Mechanics;Center of Mass;I.18.4
+I.18.4;$\mathit{m2} \in [1.0,5.0]$;$m_2$: mass of particle 2;Center of mass position;Physics;Classical Mechanics;Center of Mass;I.18.4
+I.18.4;$\mathit{r1} \in [1.0,5.0]$;$r_1$: position of particle 1;Center of mass position;Physics;Classical Mechanics;Center of Mass;I.18.4
+I.18.4;$\mathit{r2} \in [1.0,5.0]$;$r_2$: position of particle 2;Center of mass position;Physics;Classical Mechanics;Center of Mass;I.18.4
+I.18.12;$\mathit{r} \in [1.0,5.0]$;$F$: force;Torque (moment of force);Physics;Classical Mechanics;Rotational Dynamics;I.18.12
+I.18.12;$\mathit{F} \in [1.0,5.0]$;$r$: distance;Torque (moment of force);Physics;Classical Mechanics;Rotational Dynamics;I.18.12
+I.18.12;$\theta \in [0.0,5.0]$;$\theta$: angle;Torque (moment of force);Physics;Classical Mechanics;Rotational Dynamics;I.18.12
+I.18.16;$\mathit{m} \in [1.0,5.0]$;$m$: mass;Angular momentum;Physics;Classical Mechanics;Angular Momentum;I.18.16
+I.18.16;$\mathit{r} \in [1.0,5.0]$;$r$: distance;Angular momentum;Physics;Classical Mechanics;Angular Momentum;I.18.16
+I.18.16;$\mathit{v} \in [1.0,5.0]$;$v$: velocity;Angular momentum;Physics;Classical Mechanics;Angular Momentum;I.18.16
+I.18.16;$\theta \in [1.0,5.0]$;$\theta$: angle;Angular momentum;Physics;Classical Mechanics;Angular Momentum;I.18.16
+I.24.6;$\mathit{m} \in [1.0,3.0]$;$m$: mass;Energy of forced harmonic oscillator;Physics;Classical Mechanics;Harmonic Oscillator;I.24.6
+I.24.6;$\omega \in [1.0,3.0]$;$\omega$: driving frequency;Energy of forced harmonic oscillator;Physics;Classical Mechanics;Harmonic Oscillator;I.24.6
+I.24.6;$\omega_0 \in [1.0,3.0]$;$\omega_0$: natural frequency;Energy of forced harmonic oscillator;Physics;Classical Mechanics;Harmonic Oscillator;I.24.6
+I.24.6;$\mathit{x} \in [1.0,3.0]$;$x$: amplitude;Energy of forced harmonic oscillator;Physics;Classical Mechanics;Harmonic Oscillator;I.24.6
+I.25.13;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Voltage across capacitor;Physics;Electromagnetism;Capacitance;I.25.13
+I.25.13;$\mathit{C} \in [1.0,5.0]$;$C$: capacitance;Voltage across capacitor;Physics;Electromagnetism;Capacitance;I.25.13
+I.26.2;$\mathit{n} \in [0.0,1.0]$;$n$: refractive index;Snell's law (refraction angle);Physics;Optics;Refraction;I.26.2
+I.26.2;$\theta_2 \in [1.0,5.0]$;$\theta_2$: incident angle;Snell's law (refraction angle);Physics;Optics;Refraction;I.26.2
+I.27.6;$\mathit{d1} \in [1.0,5.0]$;$d_1$: object distance;Thin lens equation (image distance);Physics;Optics;Geometric Optics;I.27.6
+I.27.6;$\mathit{d2} \in [1.0,5.0]$;$d_2$: focal length;Thin lens equation (image distance);Physics;Optics;Geometric Optics;I.27.6
+I.27.6;$\mathit{n} \in [1.0,5.0]$;$n$: refractive index;Thin lens equation (image distance);Physics;Optics;Geometric Optics;I.27.6
+I.29.4;$\omega \in [1.0,10.0]$;$\omega$: angular frequency;Wave number (k);Physics;Wave Mechanics;Wave Properties;I.29.4
+I.29.4;$\mathit{c} \in [1.0,10.0]$;$c$: wave speed;Wave number (k);Physics;Wave Mechanics;Wave Properties;I.29.4
+I.29.16;$\mathit{x1} \in [1.0,5.0]$;$x_1$: magnitude of vector 1;Law of cosines (distance in polar coords);Mathematics;Geometry;Trigonometry;I.29.16
+I.29.16;$\mathit{x2} \in [1.0,5.0]$;$x_2$: magnitude of vector 2;Law of cosines (distance in polar coords);Mathematics;Geometry;Trigonometry;I.29.16
+I.29.16;$\theta_1 \in [1.0,5.0]$;$\theta_1$: polar angle of vector 1;Law of cosines (distance in polar coords);Mathematics;Geometry;Trigonometry;I.29.16
+I.29.16;$\theta_2 \in [1.0,5.0]$;$\theta_2$: polar angle of vector 2;Law of cosines (distance in polar coords);Mathematics;Geometry;Trigonometry;I.29.16
+I.30.3;$\mathit{Int_0} \in [1.0,5.0]$;$Int_0$: max intensity;Multiple-slit diffraction intensity;Physics;Optics;Diffraction;I.30.3
+I.30.3;$\theta \in [1.0,5.0]$;$\theta$: angle;Multiple-slit diffraction intensity;Physics;Optics;Diffraction;I.30.3
+I.30.3;$\mathit{n} \in [1.0,5.0]$;$n$: number of slits;Multiple-slit diffraction intensity;Physics;Optics;Diffraction;I.30.3
+I.30.5;$\mathit{lambd} \in [1.0,2.0]$;$\lambda$: wavelength;Diffraction grating angle;Physics;Optics;Diffraction;I.30.5
+I.30.5;$\mathit{d} \in [2.0,5.0]$;$d$: grating spacing;Diffraction grating angle;Physics;Optics;Diffraction;I.30.5
+I.30.5;$\mathit{n} \in [1.0,5.0]$;$n$: order;Diffraction grating angle;Physics;Optics;Diffraction;I.30.5
+I.32.5;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Abraham-Lorentz radiation power;Physics;Electromagnetism;Radiation;I.32.5
+I.32.5;$\mathit{a} \in [1.0,5.0]$;$a$: acceleration;Abraham-Lorentz radiation power;Physics;Electromagnetism;Radiation;I.32.5
+I.32.5;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Abraham-Lorentz radiation power;Physics;Electromagnetism;Radiation;I.32.5
+I.32.5;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Abraham-Lorentz radiation power;Physics;Electromagnetism;Radiation;I.32.5
+I.32.17;$\mathit{Ef} \in [1.0,2.0]$;$Ef$: electric field amplitude;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.32.17;$\epsilon \in [1.0,2.0]$;$\epsilon$: permittivity of medium;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.32.17;$\mathit{c} \in [1.0,2.0]$;$c$: speed of light;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.32.17;$\omega \in [1.0,2.0]$;$\omega$: incident light frequency;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.32.17;$\omega_0 \in [3.0,5.0]$;$\omega_0$: resonance frequency;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.32.17;$\mathit{r} \in [1.0,2.0]$;$r$: particle radius;Rayleigh scattering intensity;Physics;Optics;Light Scattering;I.32.17
+I.34.8;$\mathit{B} \in [1.0,5.0]$;$B$: magnetic field strength;Cyclotron frequency;Physics;Electromagnetism;Particle Dynamics;I.34.8
+I.34.8;$\mathit{q} \in [1.0,5.0]$;$q$: particle charge;Cyclotron frequency;Physics;Electromagnetism;Particle Dynamics;I.34.8
+I.34.8;$\mathit{v} \in [1.0,5.0]$;$v$: particle velocity;Cyclotron frequency;Physics;Electromagnetism;Particle Dynamics;I.34.8
+I.34.8;$\mathit{p} \in [1.0,5.0]$;$p$: particle momentum;Cyclotron frequency;Physics;Electromagnetism;Particle Dynamics;I.34.8
+I.34.1;$\mathit{c} \in [3.0,10.0]$;$\omega_0$: rest frequency;Doppler shift (approaching);Physics;Wave Mechanics;Doppler Effect;I.34.10
+I.34.1;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Doppler shift (approaching);Physics;Wave Mechanics;Doppler Effect;I.34.10
+I.34.1;$\omega_0 \in [1.0,5.0]$;$c$: speed of light;Doppler shift (approaching);Physics;Wave Mechanics;Doppler Effect;I.34.10
+I.34.14;$\mathit{c} \in [3.0,10.0]$;$\omega_0$: rest frequency;Relativistic Doppler shift;Physics;Relativity;Doppler Effect;I.34.14
+I.34.14;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic Doppler shift;Physics;Relativity;Doppler Effect;I.34.14
+I.34.14;$\omega_0 \in [1.0,5.0]$;$c$: speed of light;Relativistic Doppler shift;Physics;Relativity;Doppler Effect;I.34.14
+I.34.27;$\omega \in [1.0,5.0]$;$h$: Planck's constant;Photon energy (quantum mechanics);Physics;Quantum Mechanics;Photon Energy;I.34.27
+I.34.27;$\mathit{h} \in [1.0,5.0]$;$\omega$: angular frequency;Photon energy (quantum mechanics);Physics;Quantum Mechanics;Photon Energy;I.34.27
+I.37.4;$\mathit{I1} \in [1.0,5.0]$;$I_1$: intensity of wave 1;Interference of two waves;Physics;Optics;Wave Interference;I.37.4
+I.37.4;$\mathit{I2} \in [1.0,5.0]$;$I_2$: intensity of wave 2;Interference of two waves;Physics;Optics;Wave Interference;I.37.4
+I.37.4;$\delta \in [1.0,5.0]$;$\delta$: phase difference between waves;Interference of two waves;Physics;Optics;Wave Interference;I.37.4
+I.38.12;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Bohr radius (atomic physics);Physics;Quantum Mechanics;Atomic Structure;I.38.12
+I.38.12;$\mathit{m} \in [1.0,5.0]$;$m$: electron mass;Bohr radius (atomic physics);Physics;Quantum Mechanics;Atomic Structure;I.38.12
+I.38.12;$\mathit{q} \in [1.0,5.0]$;$q$: electron charge;Bohr radius (atomic physics);Physics;Quantum Mechanics;Atomic Structure;I.38.12
+I.38.12;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of vacuum;Bohr radius (atomic physics);Physics;Quantum Mechanics;Atomic Structure;I.38.12
+I.39.1;$\mathit{V} \in [1.0,5.0]$;$V$: gas volume;Internal energy of monatomic ideal gas;Physics;Thermodynamics;Ideal Gas;I.39.10
+I.39.1;$\mathit{pr} \in [1.0,5.0]$;$pr$: gas pressure;Internal energy of monatomic ideal gas;Physics;Thermodynamics;Ideal Gas;I.39.10
+I.39.11;$\mathit{V} \in [1.0,5.0]$;$V$: gas volume;Internal energy of ideal gas;Physics;Thermodynamics;Ideal Gas;I.39.11
+I.39.11;$\mathit{pr} \in [1.0,5.0]$;$pr$: gas pressure;Internal energy of ideal gas;Physics;Thermodynamics;Ideal Gas;I.39.11
+I.39.11;$\gamma \in [2.0,5.0]$;$\gamma$: heat capacity ratio $C_p/C_v$;Internal energy of ideal gas;Physics;Thermodynamics;Ideal Gas;I.39.11
+I.39.22;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Ideal gas law (pressure);Physics;Thermodynamics;Gas Laws;I.39.22
+I.39.22;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Ideal gas law (pressure);Physics;Thermodynamics;Gas Laws;I.39.22
+I.39.22;$\mathit{n} \in [1.0,5.0]$;$n$: number of molecules;Ideal gas law (pressure);Physics;Thermodynamics;Gas Laws;I.39.22
+I.39.22;$\mathit{V} \in [1.0,5.0]$;$V$: gas volume;Ideal gas law (pressure);Physics;Thermodynamics;Gas Laws;I.39.22
+I.40.1;$\mathit{n_0} \in [1.0,5.0]$;$n_0$: reference density;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.40.1;$\mathit{m} \in [1.0,5.0]$;$m$: molecular mass;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.40.1;$\mathit{x} \in [1.0,5.0]$;$x$: height;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.40.1;$\mathit{T} \in [1.0,5.0]$;$T$: temperature;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.40.1;$\mathit{g} \in [1.0,5.0]$;$g$: gravity;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.40.1;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;I.40.1
+I.41.16;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;I.41.16
+I.41.16;$\omega \in [1.0,5.0]$;$\omega$: angular frequency of radiation;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;I.41.16
+I.41.16;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;I.41.16
+I.41.16;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;I.41.16
+I.41.16;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;I.41.16
+I.43.16;$\mu_{drift} \in [1.0,5.0]$;$\mu_{drift}$: drift mobility;Drift current;Physics;Solid State Physics;Charge Transport;I.43.16
+I.43.16;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Drift current;Physics;Solid State Physics;Charge Transport;I.43.16
+I.43.16;$\mathit{Volt} \in [1.0,5.0]$;$Volt$: voltage;Drift current;Physics;Solid State Physics;Charge Transport;I.43.16
+I.43.16;$\mathit{d} \in [1.0,5.0]$;$d$: distance;Drift current;Physics;Solid State Physics;Charge Transport;I.43.16
+I.43.31;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Einstein relation (diffusion coefficient);Physics;Statistical Mechanics;Transport Phenomena;I.43.31
+I.43.31;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Einstein relation (diffusion coefficient);Physics;Statistical Mechanics;Transport Phenomena;I.43.31
+I.43.31;$\mathit{mob} \in [1.0,5.0]$;$mob$: carrier mobility;Einstein relation (diffusion coefficient);Physics;Statistical Mechanics;Transport Phenomena;I.43.31
+I.43.43;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Mean free path in gas;Physics;Statistical Mechanics;Kinetic Theory;I.43.43
+I.43.43;$\mathit{v} \in [1.0,5.0]$;$v$: mean molecular velocity;Mean free path in gas;Physics;Statistical Mechanics;Kinetic Theory;I.43.43
+I.43.43;$\mathit{A} \in [1.0,5.0]$;$A$: molecular cross-section;Mean free path in gas;Physics;Statistical Mechanics;Kinetic Theory;I.43.43
+I.43.43;$\gamma \in [2.0,5.0]$;$\gamma$: heat capacity ratio;Mean free path in gas;Physics;Statistical Mechanics;Kinetic Theory;I.43.43
+I.44.4;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;I.44.4
+I.44.4;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;I.44.4
+I.44.4;$\mathit{n} \in [1.0,5.0]$;$n$: number of particles;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;I.44.4
+I.44.4;$\mathit{V1} \in [1.0,5.0]$;$V_1$: initial volume;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;I.44.4
+I.44.4;$\mathit{V2} \in [1.0,5.0]$;$V_2$: final volume;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;I.44.4
+I.47.23;$\gamma \in [1.0,5.0]$;$\gamma$: heat capacity ratio;Speed of sound in gas;Physics;Fluid Dynamics;Acoustics;I.47.23
+I.47.23;$\mathit{pr} \in [1.0,5.0]$;$pr$: pressure;Speed of sound in gas;Physics;Fluid Dynamics;Acoustics;I.47.23
+I.47.23;$\rho \in [1.0,5.0]$;$\rho$: density;Speed of sound in gas;Physics;Fluid Dynamics;Acoustics;I.47.23
+I.48.2;$\mathit{m} \in [1.0,5.0]$;$m$: rest mass;Relativistic energy (E=mc²/y);Physics;Relativity;Mass-Energy Equivalence;I.48.2
+I.48.2;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic energy (E=mc²/y);Physics;Relativity;Mass-Energy Equivalence;I.48.2
+I.48.2;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Relativistic energy (E=mc²/y);Physics;Relativity;Mass-Energy Equivalence;I.48.2
+I.50.26;$\mathit{x1} \in [1.0,3.0]$;$x_1$: amplitude;Nonlinear oscillation;Physics;Classical Mechanics;Nonlinear Dynamics;I.50.26
+I.50.26;$\omega \in [1.0,3.0]$;$\omega$: frequency;Nonlinear oscillation;Physics;Classical Mechanics;Nonlinear Dynamics;I.50.26
+I.50.26;$\mathit{t} \in [1.0,3.0]$;$t$: time;Nonlinear oscillation;Physics;Classical Mechanics;Nonlinear Dynamics;I.50.26
+I.50.26;$\alpha \in [1.0,3.0]$;$\alpha$: nonlinearity param;Nonlinear oscillation;Physics;Classical Mechanics;Nonlinear Dynamics;I.50.26
+II.2.42;$\kappa \in [1.0,5.0]$;$\kappa$: thermal conductivity;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;II.2.42
+II.2.42;$\mathit{T1} \in [1.0,5.0]$;$T_1$: temperature at cold side;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;II.2.42
+II.2.42;$\mathit{T2} \in [1.0,5.0]$;$T_2$: temperature at hot side;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;II.2.42
+II.2.42;$\mathit{A} \in [1.0,5.0]$;$A$: cross-sectional area;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;II.2.42
+II.2.42;$\mathit{d} \in [1.0,5.0]$;$d$: material thickness;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;II.2.42
+II.3.24;$\mathit{Pwr} \in [1.0,5.0]$;$Pwr$: total power;Intensity from point source (inverse square law);Physics;Wave Mechanics;Intensity;II.3.24
+II.3.24;$\mathit{r} \in [1.0,5.0]$;$r$: distance;Intensity from point source (inverse square law);Physics;Wave Mechanics;Intensity;II.3.24
+II.4.23;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Electric potential from point charge;Physics;Electromagnetism;Electric Potential;II.4.23
+II.4.23;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Electric potential from point charge;Physics;Electromagnetism;Electric Potential;II.4.23
+II.4.23;$\mathit{r} \in [1.0,5.0]$;$r$: distance;Electric potential from point charge;Physics;Electromagnetism;Electric Potential;II.4.23
+II.6.11;$\mathit{p_d} \in [1.0,3.0]$;$p_d$: electric dipole moment;Electric potential from dipole;Physics;Electromagnetism;Dipole Field;II.6.11
+II.6.11;$\epsilon \in [1.0,3.0]$;$\epsilon$: permittivity of medium;Electric potential from dipole;Physics;Electromagnetism;Dipole Field;II.6.11
+II.6.11;$\mathit{r} \in [1.0,3.0]$;$r$: distance from dipole;Electric potential from dipole;Physics;Electromagnetism;Dipole Field;II.6.11
+II.6.11;$\theta \in [1.0,3.0]$;$\theta$: angle from dipole axis;Electric potential from dipole;Physics;Electromagnetism;Dipole Field;II.6.11
+II.6.15a;$\mathit{p_d} \in [1.0,3.0]$;$p_d$: electric dipole moment;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15a;$\epsilon \in [1.0,3.0]$;$\epsilon$: permittivity of medium;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15a;$\mathit{x} \in [1.0,3.0]$;$x$: Cartesian x-coordinate;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15a;$\mathit{y} \in [1.0,3.0]$;$y$: Cartesian y-coordinate;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15a;$\mathit{z} \in [1.0,3.0]$;$z$: Cartesian z-coordinate;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15a;$\mathit{r} \in [1.0,3.0]$;$r$: radial distance from dipole;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;II.6.15a
+II.6.15b;$\mathit{p_d} \in [1.0,3.0]$;$p_d$: electric dipole moment;Electric field from dipole (spherical coords);Physics;Electromagnetism;Dipole Field;II.6.15b
+II.6.15b;$\epsilon \in [1.0,3.0]$;$\epsilon$: permittivity of medium;Electric field from dipole (spherical coords);Physics;Electromagnetism;Dipole Field;II.6.15b
+II.6.15b;$\mathit{r} \in [1.0,3.0]$;$r$: radial distance from dipole;Electric field from dipole (spherical coords);Physics;Electromagnetism;Dipole Field;II.6.15b
+II.6.15b;$\theta \in [1.0,3.0]$;$\theta$: polar angle from dipole axis;Electric field from dipole (spherical coords);Physics;Electromagnetism;Dipole Field;II.6.15b
+II.8.7;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Capacitance of spherical conductor;Physics;Electromagnetism;Capacitance;II.8.7
+II.8.7;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Capacitance of spherical conductor;Physics;Electromagnetism;Capacitance;II.8.7
+II.8.7;$\mathit{d} \in [1.0,5.0]$;$d$: radius;Capacitance of spherical conductor;Physics;Electromagnetism;Capacitance;II.8.7
+II.8.31;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: electric field magnitude;Electric field energy density;Physics;Electromagnetism;Energy Density;II.8.31
+II.8.31;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of medium;Electric field energy density;Physics;Electromagnetism;Energy Density;II.8.31
+II.10.9;$\sigma_{den}\in [1.0,5.0]$;$\sigma_{den}$: charge density;Electric field in dielectric;Physics;Electromagnetism;Dielectric Materials;II.10.9
+II.10.9;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Electric field in dielectric;Physics;Electromagnetism;Dielectric Materials;II.10.9
+II.10.9;$\chi \in [1.0,5.0]$;$\chi$: susceptibility;Electric field in dielectric;Physics;Electromagnetism;Dielectric Materials;II.10.9
+II.11.3;$\mathit{Ef} \in [1.0,3.0]$;$Ef$: driving electric field;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;II.11.3
+II.11.3;$\mathit{q} \in [1.0,3.0]$;$q$: particle charge;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;II.11.3
+II.11.3;$\mathit{m} \in [1.0,3.0]$;$m$: particle mass;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;II.11.3
+II.11.3;$\omega_0 \in [3.0,5.0]$;$\omega_0$: natural frequency;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;II.11.3
+II.11.3;$\omega \in [1.0,2.0]$;$\omega$: driving frequency;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;II.11.3
+II.11.17;$\mathit{n_0} \in [1.0,3.0]$;$n_0$: reference number density;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.17;$\mathit{Ef} \in [1.0,3.0]$;$Ef$: applied electric field;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.17;$\mathit{p_d} \in [1.0,3.0]$;$p_d$: molecular dipole moment;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.17;$\mathit{T} \in [1.0,3.0]$;$T$: absolute temperature;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.17;$\mathit{kb} \in [1.0,3.0]$;$kb$: Boltzmann constant;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.17;$\theta \in [1.0,3.0]$;$\theta$: angle between field and dipole;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;II.11.17
+II.11.20;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: applied electric field;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;II.11.20
+II.11.20;$n_{\rho} \in [1.0,5.0]$;$n_{\rho}$: molecular number density;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;II.11.20
+II.11.20;$\mathit{p_d} \in [1.0,5.0]$;$p_d$: molecular dipole moment;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;II.11.20
+II.11.20;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;II.11.20
+II.11.20;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;II.11.20
+II.11.27;$\mathit{Ef} \in [1.0,2.0]$;$Ef$: applied electric field;Clausius-Mossotti relation (polarization);Physics;Electromagnetism;Dielectric Materials;II.11.27
+II.11.27;$\mathit{n} \in [0.0,1.0]$;$n$: molecular number density;Clausius-Mossotti relation (polarization);Physics;Electromagnetism;Dielectric Materials;II.11.27
+II.11.27;$\alpha \in [0.0,1.0]$;$\alpha$: molecular polarizability;Clausius-Mossotti relation (polarization);Physics;Electromagnetism;Dielectric Materials;II.11.27
+II.11.27;$\epsilon \in [1.0,2.0]$;$\epsilon$: permittivity of vacuum;Clausius-Mossotti relation (polarization);Physics;Electromagnetism;Dielectric Materials;II.11.27
+II.11.28;$\alpha \in [0.0,1.0]$;$\alpha$: molecular polarizability;Dielectric constant from polarizability;Physics;Electromagnetism;Dielectric Materials;II.11.28
+II.11.28;$\mathit{n} \in [0.0,1.0]$;$n$: molecular number density;Dielectric constant from polarizability;Physics;Electromagnetism;Dielectric Materials;II.11.28
+II.13.17;$\mathit{I} \in [1.0,5.0]$;$I$: electric current;Magnetic field from current (Biot-Savart);Physics;Electromagnetism;Magnetic Field;II.13.17
+II.13.17;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Magnetic field from current (Biot-Savart);Physics;Electromagnetism;Magnetic Field;II.13.17
+II.13.17;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of vacuum;Magnetic field from current (Biot-Savart);Physics;Electromagnetism;Magnetic Field;II.13.17
+II.13.17;$\mathit{r} \in [1.0,5.0]$;$r$: distance from wire;Magnetic field from current (Biot-Savart);Physics;Electromagnetism;Magnetic Field;II.13.17
+II.13.23;$\rho_{c_0} \in [1.0,5.0]$;$\rho_{c_0}$: rest charge density;Relativistic charge density;Physics;Relativity;Charge Density;II.13.23
+II.13.23;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic charge density;Physics;Relativity;Charge Density;II.13.23
+II.13.23;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Relativistic charge density;Physics;Relativity;Charge Density;II.13.23
+II.13.34;$\rho_{c_0} \in [1.0,5.0]$;$\rho_{c_0}$: rest charge density;Relativistic current density;Physics;Relativity;Current Density;II.13.34
+II.13.34;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Relativistic current density;Physics;Relativity;Current Density;II.13.34
+II.13.34;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Relativistic current density;Physics;Relativity;Current Density;II.13.34
+II.15.4;$\mathit{B} \in [1.0,5.0]$;$B$: magnetic field strength;Magnetic dipole potential energy;Physics;Electromagnetism;Magnetic Dipole;II.15.4
+II.15.4;$\mathit{mom} \in [1.0,5.0]$;$mom$: magnetic dipole moment;Magnetic dipole potential energy;Physics;Electromagnetism;Magnetic Dipole;II.15.4
+II.15.4;$\theta \in [1.0,5.0]$;$\theta$: angle between field and moment;Magnetic dipole potential energy;Physics;Electromagnetism;Magnetic Dipole;II.15.4
+II.15.5;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: electric field strength;Electric dipole potential energy;Physics;Electromagnetism;Electric Dipole;II.15.5
+II.15.5;$\mathit{p_d} \in [1.0,5.0]$;$p_d$: electric dipole moment;Electric dipole potential energy;Physics;Electromagnetism;Electric Dipole;II.15.5
+II.15.5;$\theta \in [1.0,5.0]$;$\theta$: angle between field and dipole;Electric dipole potential energy;Physics;Electromagnetism;Electric Dipole;II.15.5
+II.21.32;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Liénard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;II.21.32
+II.21.32;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Liénard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;II.21.32
+II.21.32;$\mathit{r} \in [1.0,5.0]$;$r$: distance;Liénard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;II.21.32
+II.21.32;$\mathit{v} \in [1.0,2.0]$;$v$: velocity;Liénard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;II.21.32
+II.21.32;$\mathit{c} \in [3.0,10.0]$;$c$: speed of light;Liénard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;II.21.32
+II.24.17;$\omega \in [4.0,6.0]$;$\omega$: frequency;Wave number in waveguide;Engineering;Electrical Engineering;Waveguide Theory;II.24.17
+II.24.17;$\mathit{c} \in [1.0,2.0]$;$c$: wave speed;Wave number in waveguide;Engineering;Electrical Engineering;Waveguide Theory;II.24.17
+II.24.17;$\mathit{d} \in [2.0,4.0]$;$d$: waveguide dimension;Wave number in waveguide;Engineering;Electrical Engineering;Waveguide Theory;II.24.17
+II.27.16;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: electric field amplitude;Poynting vector magnitude;Physics;Electromagnetism;Energy Flow;II.27.16
+II.27.16;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Poynting vector magnitude;Physics;Electromagnetism;Energy Flow;II.27.16
+II.27.16;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of medium;Poynting vector magnitude;Physics;Electromagnetism;Energy Flow;II.27.16
+II.27.18;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: electric field amplitude;Electric energy flux;Physics;Electromagnetism;Energy Density;II.27.18
+II.27.18;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of medium;Electric energy flux;Physics;Electromagnetism;Energy Density;II.27.18
+II.34.2a;$\mathit{q} \in [1.0,5.0]$;$q$: charge;Magnetic dipole moment (current loop);Physics;Electromagnetism;Magnetic Moment;II.34.2a
+II.34.2a;$\mathit{v} \in [1.0,5.0]$;$v$: velocity;Magnetic dipole moment (current loop);Physics;Electromagnetism;Magnetic Moment;II.34.2a
+II.34.2a;$\mathit{r} \in [1.0,5.0]$;$r$: radius;Magnetic dipole moment (current loop);Physics;Electromagnetism;Magnetic Moment;II.34.2a
+II.34.2;$\mathit{q} \in [1.0,5.0]$;$q$: particle charge;Magnetic moment (orbiting charge);Physics;Electromagnetism;Magnetic Moment;II.34.2
+II.34.2;$\mathit{r} \in [1.0,5.0]$;$r$: orbital radius;Magnetic moment (orbiting charge);Physics;Electromagnetism;Magnetic Moment;II.34.2
+II.34.2;$\mathit{v} \in [1.0,5.0]$;$v$: orbital velocity;Magnetic moment (orbiting charge);Physics;Electromagnetism;Magnetic Moment;II.34.2
+II.34.11;$\mathit{B} \in [1.0,5.0]$;$B$: magnetic field strength;Larmor precession frequency;Physics;Quantum Mechanics;Spin Precession;II.34.11
+II.34.11;$\mathit{\_} \in [1.0,5.0]$;$g$: Landé g-factor;Larmor precession frequency;Physics;Quantum Mechanics;Spin Precession;II.34.11
+II.34.11;$\mathit{q} \in [1.0,5.0]$;$q$: particle charge;Larmor precession frequency;Physics;Quantum Mechanics;Spin Precession;II.34.11
+II.34.11;$\mathit{m} \in [1.0,5.0]$;$m$: particle mass;Larmor precession frequency;Physics;Quantum Mechanics;Spin Precession;II.34.11
+II.34.29a;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Bohr magneton;Physics;Quantum Mechanics;Magnetic Moment;II.34.29a
+II.34.29a;$\mathit{q} \in [1.0,5.0]$;$q$: electron charge;Bohr magneton;Physics;Quantum Mechanics;Magnetic Moment;II.34.29a
+II.34.29a;$\mathit{m} \in [1.0,5.0]$;$m$: electron mass;Bohr magneton;Physics;Quantum Mechanics;Magnetic Moment;II.34.29a
+II.34.29b;$\mathit{B} \in [1.0,5.0]$;$B$: applied magnetic field;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;II.34.29b
+II.34.29b;$\mathit{Jz} \in [1.0,5.0]$;$Jz$: z-component of angular momentum;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;II.34.29b
+II.34.29b;$\mathit{\_} \in [1.0,5.0]$;$g$: Landé g-factor;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;II.34.29b
+II.34.29b;$\mathit{mom} \in [1.0,5.0]$;$mom$: Bohr magneton;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;II.34.29b
+II.34.29b;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;II.34.29b
+II.35.18;$\mathit{n_0} \in [1.0,3.0]$;$n_0$: total number density;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;II.35.18
+II.35.18;$\mathit{B} \in [1.0,3.0]$;$B$: applied magnetic field;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;II.35.18
+II.35.18;$\mathit{mom} \in [1.0,3.0]$;$mom$: magnetic moment per particle;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;II.35.18
+II.35.18;$\mathit{T} \in [1.0,3.0]$;$T$: absolute temperature;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;II.35.18
+II.35.18;$\mathit{kb} \in [1.0,3.0]$;$kb$: Boltzmann constant;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;II.35.18
+II.35.21;$\mathit{mom} \in [1.0,5.0]$;$mom$: magnetic moment per particle;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;II.35.21
+II.35.21;$n_{\rho} \in [1.0,5.0]$;$n_{\rho}$: particle number density;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;II.35.21
+II.35.21;$\mathit{B} \in [1.0,5.0]$;$B$: applied magnetic field;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;II.35.21
+II.35.21;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;II.35.21
+II.35.21;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;II.35.21
+II.36.38;$\mathit{H} \in [1.0,3.0]$;$H$: applied magnetic field;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\mathit{M} \in [1.0,3.0]$;$M$: magnetization;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\mathit{mom} \in [1.0,3.0]$;$mom$: magnetic moment per particle;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\mathit{T} \in [1.0,3.0]$;$T$: absolute temperature;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\mathit{kb} \in [1.0,3.0]$;$kb$: Boltzmann constant;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\alpha \in [1.0,3.0]$;$\alpha$: magneto-electric coupling constant;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\epsilon \in [1.0,3.0]$;$\epsilon$: permittivity of medium;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.36.38;$\mathit{c} \in [1.0,3.0]$;$c$: speed of light;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;II.36.38
+II.37.1;$\mathit{B} \in [1.0,5.0]$;$B$: applied magnetic field;Magnetic field in material;Physics;Solid State Physics;Magnetic Materials;II.37.1
+II.37.1;$\mathit{mom} \in [1.0,5.0]$;$mom$: magnetic moment per particle;Magnetic field in material;Physics;Solid State Physics;Magnetic Materials;II.37.1
+II.37.1;$\chi \in [1.0,5.0]$;$\chi$: magnetic susceptibility;Magnetic field in material;Physics;Solid State Physics;Magnetic Materials;II.37.1
+II.38.3;$\mathit{Y} \in [1.0,5.0]$;$Y$: Young's modulus;Hooke's law for stress/strain (force);Engineering;Mechanical Engineering;Elasticity;II.38.3
+II.38.3;$\mathit{A} \in [1.0,5.0]$;$A$: cross-sectional area;Hooke's law for stress/strain (force);Engineering;Mechanical Engineering;Elasticity;II.38.3
+II.38.3;$\mathit{x} \in [1.0,5.0]$;$x$: elongation (extension);Hooke's law for stress/strain (force);Engineering;Mechanical Engineering;Elasticity;II.38.3
+II.38.3;$\mathit{d} \in [1.0,5.0]$;$d$: original length;Hooke's law for stress/strain (force);Engineering;Mechanical Engineering;Elasticity;II.38.3
+II.38.14;$\mathit{Y} \in [1.0,5.0]$;$Y$: Young's modulus;Shear modulus from Young's modulus;Engineering;Mechanical Engineering;Material Properties;II.38.14
+II.38.14;$\sigma \in [1.0,5.0]$;$\sigma$: Poisson's ratio;Shear modulus from Young's modulus;Engineering;Mechanical Engineering;Material Properties;II.38.14
+III.4.32;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Bose-Einstein distribution;Physics;Statistical Mechanics;Quantum Statistics;III.4.32
+III.4.32;$\omega \in [1.0,5.0]$;$\omega$: angular frequency;Bose-Einstein distribution;Physics;Statistical Mechanics;Quantum Statistics;III.4.32
+III.4.32;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Bose-Einstein distribution;Physics;Statistical Mechanics;Quantum Statistics;III.4.32
+III.4.32;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Bose-Einstein distribution;Physics;Statistical Mechanics;Quantum Statistics;III.4.32
+III.4.33;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Average energy (Bose-Einstein statistics);Physics;Statistical Mechanics;Quantum Statistics;III.4.33
+III.4.33;$\omega \in [1.0,5.0]$;$\omega$: angular frequency;Average energy (Bose-Einstein statistics);Physics;Statistical Mechanics;Quantum Statistics;III.4.33
+III.4.33;$\mathit{T} \in [1.0,5.0]$;$T$: absolute temperature;Average energy (Bose-Einstein statistics);Physics;Statistical Mechanics;Quantum Statistics;III.4.33
+III.4.33;$\mathit{kb} \in [1.0,5.0]$;$kb$: Boltzmann constant;Average energy (Bose-Einstein statistics);Physics;Statistical Mechanics;Quantum Statistics;III.4.33
+III.7.38;$\mathit{B} \in [1.0,5.0]$;$B$: magnetic field;Gyromagnetic ratio times field;Physics;Quantum Mechanics;Spin Dynamics;III.7.38
+III.7.38;$\mathit{mom} \in [1.0,5.0]$;$mom$: magnetic dipole moment;Gyromagnetic ratio times field;Physics;Quantum Mechanics;Spin Dynamics;III.7.38
+III.7.38;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Gyromagnetic ratio times field;Physics;Quantum Mechanics;Spin Dynamics;III.7.38
+III.8.54;$\mathit{E_n} \in [1.0,2.0]$;$E_n$: energy;Quantum transition probability (time-dependent);Physics;Quantum Mechanics;Time Evolution;III.8.54
+III.8.54;$\mathit{t} \in [1.0,2.0]$;$t$: time;Quantum transition probability (time-dependent);Physics;Quantum Mechanics;Time Evolution;III.8.54
+III.8.54;$\mathit{h} \in [1.0,4.0]$;$h$: Planck's constant;Quantum transition probability (time-dependent);Physics;Quantum Mechanics;Time Evolution;III.8.54
+III.9.52;$\mathit{Ef} \in [1.0,3.0]$;$Ef$: electric field amplitude;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.9.52;$\mathit{p_d} \in [1.0,3.0]$;$p_d$: electric dipole moment;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.9.52;$\omega \in [1.0,5.0]$;$\omega$: driving frequency;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.9.52;$\omega_0 \in [1.0,5.0]$;$\omega_0$: resonance frequency;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.9.52;$\mathit{t} \in [1.0,3.0]$;$t$: time;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.9.52;$\mathit{h} \in [1.0,3.0]$;$h$: Planck's constant;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;III.9.52
+III.10.19;$\mathit{mom} \in [1.0,5.0]$;$mom$: magnetic dipole moment;Energy in 3D magnetic field;Physics;Quantum Mechanics;Zeeman Energy;III.10.19
+III.10.19;$\mathit{Bx} \in [1.0,5.0]$;$Bx$: x-component of magnetic field;Energy in 3D magnetic field;Physics;Quantum Mechanics;Zeeman Energy;III.10.19
+III.10.19;$\mathit{By} \in [1.0,5.0]$;$By$: y-component of magnetic field;Energy in 3D magnetic field;Physics;Quantum Mechanics;Zeeman Energy;III.10.19
+III.10.19;$\mathit{Bz} \in [1.0,5.0]$;$Bz$: z-component of magnetic field;Energy in 3D magnetic field;Physics;Quantum Mechanics;Zeeman Energy;III.10.19
+III.12.43;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Quantized angular momentum;Physics;Quantum Mechanics;Angular Momentum;III.12.43
+III.12.43;$\mathit{n} \in [1.0,5.0]$;$n$: principal quantum number;Quantized angular momentum;Physics;Quantum Mechanics;Angular Momentum;III.12.43
+III.13.18;$\mathit{E_n} \in [1.0,5.0]$;$E_n$: energy;Fermi's golden rule (transition rate);Physics;Quantum Mechanics;Perturbation Theory;III.13.18
+III.13.18;$\mathit{d} \in [1.0,5.0]$;$d$: matrix element;Fermi's golden rule (transition rate);Physics;Quantum Mechanics;Perturbation Theory;III.13.18
+III.13.18;$\mathit{k} \in [1.0,5.0]$;$k$: density of states;Fermi's golden rule (transition rate);Physics;Quantum Mechanics;Perturbation Theory;III.13.18
+III.13.18;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Fermi's golden rule (transition rate);Physics;Quantum Mechanics;Perturbation Theory;III.13.18
+III.14.14;$\mathit{I_0} \in [1.0,5.0]$;$I_0$: saturation current;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;III.14.14
+III.14.14;$\mathit{Volt} \in [1.0,2.0]$;$Volt$: applied voltage;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;III.14.14
+III.14.14;$\mathit{q} \in [1.0,2.0]$;$q$: elementary charge;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;III.14.14
+III.14.14;$\mathit{T} \in [1.0,2.0]$;$T$: absolute temperature;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;III.14.14
+III.14.14;$\mathit{kb} \in [1.0,2.0]$;$kb$: Boltzmann constant;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;III.14.14
+III.15.12;$\mathit{U} \in [1.0,5.0]$;$U$: coupling energy;Tight-binding dispersion relation;Physics;Solid State Physics;Band Structure;III.15.12
+III.15.12;$\mathit{k} \in [1.0,5.0]$;$k$: wave vector;Tight-binding dispersion relation;Physics;Solid State Physics;Band Structure;III.15.12
+III.15.12;$\mathit{d} \in [1.0,5.0]$;$d$: lattice constant;Tight-binding dispersion relation;Physics;Solid State Physics;Band Structure;III.15.12
+III.15.14;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Effective mass in quantum well;Physics;Quantum Mechanics;Quantum Confinement;III.15.14
+III.15.14;$\mathit{E_n} \in [1.0,5.0]$;$E_n$: energy;Effective mass in quantum well;Physics;Quantum Mechanics;Quantum Confinement;III.15.14
+III.15.14;$\mathit{d} \in [1.0,5.0]$;$d$: well width;Effective mass in quantum well;Physics;Quantum Mechanics;Quantum Confinement;III.15.14
+III.15.27;$\alpha \in [1.0,5.0]$;$\alpha$: lattice parameter;Reciprocal lattice vector;Physics;Solid State Physics;Crystallography;III.15.27
+III.15.27;$\mathit{n} \in [1.0,5.0]$;$n$: Miller index;Reciprocal lattice vector;Physics;Solid State Physics;Crystallography;III.15.27
+III.15.27;$\mathit{d} \in [1.0,5.0]$;$d$: spacing;Reciprocal lattice vector;Physics;Solid State Physics;Crystallography;III.15.27
+III.17.37;$\beta \in [1.0,5.0]$;$\beta$: amplitude parameter;Angular modulation function;Mathematics;Applied Mathematics;Signal Processing;III.17.37
+III.17.37;$\alpha \in [1.0,5.0]$;$\alpha$: modulation depth;Angular modulation function;Mathematics;Applied Mathematics;Signal Processing;III.17.37
+III.17.37;$\theta \in [1.0,5.0]$;$\theta$: angle;Angular modulation function;Mathematics;Applied Mathematics;Signal Processing;III.17.37
+III.19.51;$\mathit{m} \in [1.0,5.0]$;$m$: electron mass;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;III.19.51
+III.19.51;$\mathit{q} \in [1.0,5.0]$;$q$: electron charge;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;III.19.51
+III.19.51;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;III.19.51
+III.19.51;$\mathit{n} \in [1.0,5.0]$;$n$: principal quantum number;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;III.19.51
+III.19.51;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;III.19.51
+III.21.20;$A_{vec} \in [1.0,5.0]$;$A_{vec}$: magnetic vector potential;Current density in quantum mechanics;Physics;Quantum Mechanics;Electromagnetic Coupling;III.21.20
+III.21.20;$\mathit{q} \in [1.0,5.0]$;$q$: electric charge;Current density in quantum mechanics;Physics;Quantum Mechanics;Electromagnetic Coupling;III.21.20
+III.21.20;$\rho_{c_0} \in [1.0,5.0]$;$\rho_{c_0}$: charge density;Current density in quantum mechanics;Physics;Quantum Mechanics;Electromagnetic Coupling;III.21.20
+III.21.20;$\mathit{m} \in [1.0,5.0]$;$m$: particle mass;Current density in quantum mechanics;Physics;Quantum Mechanics;Electromagnetic Coupling;III.21.20
+Bonus1.0;$\mathit{Z_1} \in [1.0,2.0]$;$Z_1$: atomic number of projectile;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\mathit{Z_2} \in [1.0,2.0]$;$Z_2$: atomic number of target;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\alpha \in [1.0,2.0]$;$\alpha$: fine structure constant;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\hbar \in [1.0,2.0]$;$\hbar$: reduced Planck constant;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\mathit{c} \in [1.0,2.0]$;$c$: speed of light;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\mathit{E_n} \in [1.0,3.0]$;$E_n$: kinetic energy of projectile;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus1.0;$\theta \in [1.0,3.0]$;$\theta$: scattering angle;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;Bonus1.0
+Bonus2.0;$\mathit{m} \in [1.0,3.0]$;$m$: reduced mass of system;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus2.0;$\mathit{k_G} \in [1.0,3.0]$;$k_G$: gravitational coupling $Gm_1m_2$;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus2.0;$\mathit{L} \in [1.0,3.0]$;$L$: total angular momentum;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus2.0;$\mathit{E_n} \in [1.0,3.0]$;$E_n$: total mechanical energy;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus2.0;$\theta_1 \in [0.0,6.0]$;$\theta_1$: current true anomaly;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus2.0;$\theta_2 \in [0.0,6.0]$;$\theta_2$: periapsis argument;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;Bonus2.0
+Bonus3.0;$\mathit{d} \in [1.0,3.0]$;$d$: semi-latus rectum of orbit;Orbit equation (conic section with eccentricity);Physics;Classical Mechanics;Orbital Mechanics;Bonus3.0
+Bonus3.0;$\alpha \in [2.0,4.0]$;$\alpha$: orbital eccentricity;Orbit equation (conic section with eccentricity);Physics;Classical Mechanics;Orbital Mechanics;Bonus3.0
+Bonus3.0;$\theta_1 \in [4.0,5.0]$;$\theta_1$: current true anomaly;Orbit equation (conic section with eccentricity);Physics;Classical Mechanics;Orbital Mechanics;Bonus3.0
+Bonus3.0;$\theta_2 \in [4.0,5.0]$;$\theta_2$: argument of periapsis;Orbit equation (conic section with eccentricity);Physics;Classical Mechanics;Orbital Mechanics;Bonus3.0
+Bonus4.0;$\mathit{m} \in [1.0,3.0]$;$m$: mass;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;Bonus4.0
+Bonus4.0;$\mathit{E_n} \in [8.0,12.0]$;$E_n$: total energy;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;Bonus4.0
+Bonus4.0;$\mathit{U} \in [1.0,3.0]$;$U$: potential energy;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;Bonus4.0
+Bonus4.0;$\mathit{L} \in [1.0,3.0]$;$L$: angular momentum;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;Bonus4.0
+Bonus4.0;$\mathit{r} \in [1.0,3.0]$;$r$: radial distance;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;Bonus4.0
+Bonus5.0;$\mathit{d} \in [1.0,3.0]$;$d$: semi-major axis of orbit;Kepler's third law (orbital period);Astronomy;Celestial Mechanics;Keplerian Orbits;Bonus5.0
+Bonus5.0;$\mathit{G} \in [1.0,3.0]$;$G$: gravitational constant;Kepler's third law (orbital period);Astronomy;Celestial Mechanics;Keplerian Orbits;Bonus5.0
+Bonus5.0;$\mathit{m1} \in [1.0,3.0]$;$m_1$: mass of primary body;Kepler's third law (orbital period);Astronomy;Celestial Mechanics;Keplerian Orbits;Bonus5.0
+Bonus5.0;$\mathit{m2} \in [1.0,3.0]$;$m_2$: mass of orbiting body;Kepler's third law (orbital period);Astronomy;Celestial Mechanics;Keplerian Orbits;Bonus5.0
+Bonus6.0;$\epsilon \in [1.0,3.0]$;$\epsilon$: permittivity of vacuum;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{L} \in [1.0,3.0]$;$L$: orbital angular momentum;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{E_n} \in [1.0,3.0]$;$E_n$: total mechanical energy;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{Z_1} \in [1.0,3.0]$;$Z_1$: charge number of particle 1;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{Z_2} \in [1.0,3.0]$;$Z_2$: charge number of particle 2;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{m} \in [1.0,3.0]$;$m$: reduced mass of system;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus6.0;$\mathit{q} \in [1.0,3.0]$;$q$: elementary charge;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;Bonus6.0
+Bonus7.0;$\mathit{G} \in [1.0,3.0]$;$G$: grav constant;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;Bonus7.0
+Bonus7.0;$\rho \in [1.0,3.0]$;$\rho$: mass density;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;Bonus7.0
+Bonus7.0;$\alpha \in [1.0,2.0]$;$\alpha$: curvature constant;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;Bonus7.0
+Bonus7.0;$\mathit{c} \in [1.0,2.0]$;$c$: speed of light;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;Bonus7.0
+Bonus7.0;$\mathit{d} \in [1.0,3.0]$;$d$: scale factor;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;Bonus7.0
+Bonus8.0;$\mathit{E_n} \in [1.0,3.0]$;$E_n$: photon energy;Compton scattering (scattered photon energy);Physics;Quantum Mechanics;Photon Scattering;Bonus8.0
+Bonus8.0;$\mathit{m} \in [1.0,3.0]$;$m$: electron mass;Compton scattering (scattered photon energy);Physics;Quantum Mechanics;Photon Scattering;Bonus8.0
+Bonus8.0;$\mathit{c} \in [1.0,3.0]$;$c$: speed of light;Compton scattering (scattered photon energy);Physics;Quantum Mechanics;Photon Scattering;Bonus8.0
+Bonus8.0;$\theta \in [1.0,3.0]$;$\theta$: scattering angle;Compton scattering (scattered photon energy);Physics;Quantum Mechanics;Photon Scattering;Bonus8.0
+Bonus9.0;$\mathit{G} \in [1.0,2.0]$;$G$: gravitational constant;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;Bonus9.0
+Bonus9.0;$\mathit{c} \in [1.0,2.0]$;$c$: speed of light;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;Bonus9.0
+Bonus9.0;$\mathit{m1} \in [1.0,5.0]$;$m_1$: mass of first body;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;Bonus9.0
+Bonus9.0;$\mathit{m2} \in [1.0,5.0]$;$m_2$: mass of second body;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;Bonus9.0
+Bonus9.0;$\mathit{r} \in [1.0,2.0]$;$r$: orbital separation;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;Bonus9.0
+Bonus10.0;$\mathit{c} \in [4.0,6.0]$;$c$: speed of light;Relativistic aberration angle;Physics;Relativity;Light Aberration;Bonus10.0
+Bonus10.0;$\mathit{v} \in [1.0,3.0]$;$v$: velocity;Relativistic aberration angle;Physics;Relativity;Light Aberration;Bonus10.0
+Bonus10.0;$\theta_2 \in [1.0,3.0]$;$\theta_2$: angle in rest frame;Relativistic aberration angle;Physics;Relativity;Light Aberration;Bonus10.0
+Bonus11.0;$\mathit{I_0} \in [1.0,3.0]$;$I_0$: max intensity;Fraunhofer diffraction (N-slit interference pattern);Physics;Optics;Diffraction Patterns;Bonus11.0
+Bonus11.0;$\alpha \in [1.0,3.0]$;$\alpha$: single-slit phase;Fraunhofer diffraction (N-slit interference pattern);Physics;Optics;Diffraction Patterns;Bonus11.0
+Bonus11.0;$\delta \in [1.0,3.0]$;$\delta$: inter-slit phase;Fraunhofer diffraction (N-slit interference pattern);Physics;Optics;Diffraction Patterns;Bonus11.0
+Bonus11.0;$\mathit{n} \in [1.0,2.0]$;$n$: number of slits;Fraunhofer diffraction (N-slit interference pattern);Physics;Optics;Diffraction Patterns;Bonus11.0
+Bonus12.0;$\mathit{q} \in [1.0,5.0]$;$q$: point charge;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;Bonus12.0
+Bonus12.0;$\mathit{Volt} \in [1.0,5.0]$;$Volt$: potential reference;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;Bonus12.0
+Bonus12.0;$\mathit{d} \in [4.0,6.0]$;$d$: sphere radius;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;Bonus12.0
+Bonus12.0;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of vacuum;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;Bonus12.0
+Bonus12.0;$\mathit{y} \in [1.0,3.0]$;$y$: distance from sphere center;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;Bonus12.0
+Bonus13.0;$\mathit{q} \in [1.0,5.0]$;$q$: point charge magnitude;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;Bonus13.0
+Bonus13.0;$\epsilon \in [1.0,5.0]$;$\epsilon$: permittivity of medium;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;Bonus13.0
+Bonus13.0;$\mathit{d} \in [4.0,6.0]$;$d$: distance from origin to charge;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;Bonus13.0
+Bonus13.0;$\mathit{r} \in [1.0,3.0]$;$r$: distance from origin to field point;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;Bonus13.0
+Bonus13.0;$\alpha \in [0.0,6.0]$;$\alpha$: angle between $\mathbf{d}$ and $\mathbf{r}$;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;Bonus13.0
+Bonus14.0;$\mathit{Ef} \in [1.0,5.0]$;$Ef$: external electric field;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;Bonus14.0
+Bonus14.0;$\alpha \in [1.0,5.0]$;$\alpha$: relative dielectric constant;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;Bonus14.0
+Bonus14.0;$\mathit{d} \in [1.0,5.0]$;$d$: sphere radius;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;Bonus14.0
+Bonus14.0;$\mathit{r} \in [1.0,5.0]$;$r$: distance from sphere center;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;Bonus14.0
+Bonus14.0;$\theta \in [0.0,6.0]$;$\theta$: polar angle from field direction;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;Bonus14.0
+Bonus15.0;$\omega \in [1.0,5.0]$;$\omega$: source frequency (rest frame);Relativistic Doppler shift (general angle);Physics;Relativity;Doppler Effect;Bonus15.0
+Bonus15.0;$\mathit{v} \in [1.0,3.0]$;$v$: relative velocity;Relativistic Doppler shift (general angle);Physics;Relativity;Doppler Effect;Bonus15.0
+Bonus15.0;$\mathit{c} \in [5.0,20.0]$;$c$: speed of light;Relativistic Doppler shift (general angle);Physics;Relativity;Doppler Effect;Bonus15.0
+Bonus15.0;$\theta \in [0.0,6.0]$;$\theta$: angle between velocity and observation;Relativistic Doppler shift (general angle);Physics;Relativity;Doppler Effect;Bonus15.0
+Bonus16.0;$\mathit{Volt} \in [1.0,5.0]$;$Volt$: scalar potential;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus16.0;$\mathit{q} \in [1.0,5.0]$;$q$: particle charge;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus16.0;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus16.0;$\mathit{m} \in [1.0,5.0]$;$m$: rest mass;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus16.0;$A_{vec} \in [1.0,5.0]$;$A_{vec}$: magnetic vector potential;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus16.0;$\mathit{p} \in [1.0,5.0]$;$p$: canonical momentum;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;Bonus16.0
+Bonus17.0;$\mathit{m} \in [1.0,5.0]$;$m$: particle mass;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus17.0;$\omega \in [1.0,5.0]$;$\omega$: natural angular frequency;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus17.0;$\mathit{p} \in [1.0,5.0]$;$p$: canonical momentum;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus17.0;$\mathit{x} \in [1.0,5.0]$;$x$: displacement from equilibrium;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus17.0;$\alpha \in [1.0,5.0]$;$\alpha$: anharmonicity parameter;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus17.0;$\mathit{y} \in [1.0,5.0]$;$y$: characteristic length scale;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;Bonus17.0
+Bonus18.0;$\mathit{H_G} \in [1.0,5.0]$;$H_G$: Hubble parameter;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;Bonus18.0
+Bonus18.0;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;Bonus18.0
+Bonus18.0;$\mathit{k_f} \in [1.0,5.0]$;$k_f$: spatial curvature constant;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;Bonus18.0
+Bonus18.0;$\mathit{r} \in [1.0,5.0]$;$r$: scale factor $a(t)$;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;Bonus18.0
+Bonus18.0;$\mathit{G} \in [1.0,5.0]$;$G$: gravitational constant;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;Bonus18.0
+Bonus19.0;$\mathit{H_G} \in [1.0,5.0]$;$H_G$: Hubble parameter;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus19.0;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus19.0;$\alpha \in [1.0,5.0]$;$\alpha$: equation of state parameter $w$;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus19.0;$\mathit{k_f} \in [1.0,5.0]$;$k_f$: spatial curvature constant;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus19.0;$\mathit{r} \in [1.0,5.0]$;$r$: scale factor $a(t)$;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus19.0;$\mathit{G} \in [1.0,5.0]$;$G$: gravitational constant;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;Bonus19.0
+Bonus20.0;$\alpha \in [1.0,5.0]$;$\alpha$: fine structure constant;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\mathit{h} \in [1.0,5.0]$;$h$: Planck's constant;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\omega_0 \in [1.0,5.0]$;$\omega_0$: incident photon frequency;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\omega \in [1.0,5.0]$;$\omega$: scattered photon frequency;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\mathit{m} \in [1.0,5.0]$;$m$: electron rest mass;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\mathit{c} \in [1.0,5.0]$;$c$: speed of light;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0
+Bonus20.0;$\beta \in [0.0,6.0]$;$\beta$: scattering angle;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;Bonus20.0

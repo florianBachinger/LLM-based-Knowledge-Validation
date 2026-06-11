@@ -1,0 +1,105 @@
+figures/data/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments (avoid committing local env)
+.env/
+.venv/
+venv/
+env/
+Lib/
+Scripts/
+pyvenv.cfg
+share/
+
+# Package/build artifacts
+dist/
+build/
+.eggs/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# Type check / lint caches
+.mypy_cache/
+.pytype/
+.dmypy.json
+.ruff_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Django/Flask specific
+local_settings.py
+instance/
+.db.sqlite3
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Pydantic compiled models
+*.pyd
+
+# Sphinx/Docs
+docs/_build/
+
+# PyBuilder
+target/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Other editors
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: dependency/lock files (uncomment to ignore if not shared)
+# poetry.lock
+# __pypackages__/
+# .hatch/
+
+# Environment variables / secrets
+*.env
+*.env.*
+.envrc
+
+# Profiling data
+*.prof
+
+# Temporary data
+*.tmp
+*.temp
+
+# Generated wheels
+*.whl
+
+# Local Python version file
+.python-version

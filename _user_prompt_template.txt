@@ -1,0 +1,34 @@
+### Domain Context
+**Taxonomy:** {application_taxonomy}
+
+### Task
+Evaluate the following proposed shape property:
+**Shape Property:** ${shape_property_latex}$
+
+**Variables**
+The variables have observed values in the following input domain:
+${variable_domains}$
+{variable_descriptions}
+
+### Example
+**Shape Property:** $T \in [0.0,1.0] \wedge v \in [0.0,1.0] \wedge p \in [0.0,1.0] \implies \frac{{\partial f}}{{\partial{{T}}}} \leq 0$
+**Variables**: $T$ (Disc Temperature °C), $v$ (Sliding Velocity m/s), $p$ (Applied Pressure N/mm2)
+**Output**:
+{{
+  "result": "valid",
+  "explanation": "In tribology, this represents the 'thermal fading' effect. As temperature $T$ increases, the shear strength of the friction material surface typically decreases due to thermal softening. This physical degradation leads to a reduction in the friction coefficient, hence a non-positive first derivative $\frac{{\partial \mu_{{dyn}}}}{{\partial T}} \leq 0$. At extreme temperatures, the system may reach a lower bound where further temperature increases have diminishing effects on $\mu_{{dyn}}$."
+}}
+
+### Instructions
+1. Determine if the shape property is **valid** or **invalid** based on the physical principles of the domain.
+2. Provide a markdown-formatted explanation. In your explanation:
+    - Identify the physical phenomenon driving this behavior.
+    - Explain the first derivative (trend) if applicable.
+    - Relate it to the system reaching equilibrium or physical limits.
+3. Your Answer may ONLY contain the single JSON object answer as shown below in `Expected Output Format`
+
+### Expected Output Format
+{{
+  "result": "valid" | "invalid",
+  "explanation": "Markdown string with $LaTeX$ formulas"
+}}

@@ -1,0 +1,121 @@
+﻿Equation_Name;Equation;Equation-Description;Taxonomy-Domain;Taxonomy-Subdomain;Taxonomy-Specific;SRSD Hard
+FeynmanICh6Eq20a;I.6.2a;Gaussian distribution (normal distribution with $\sigma=1$);Mathematics;Probability Theory;Gaussian Distribution;x
+FeynmanICh6Eq20;I.6.2;Gaussian/normal distribution probability density;Mathematics;Probability Theory;Gaussian Distribution;x
+FeynmanICh6Eq20b;I.6.2b;Gaussian distribution with mean $\theta_1$;Mathematics;Probability Theory;Gaussian Distribution;x
+FeynmanICh8Eq14;I.8.14;Euclidean distance between two points in 2D;Mathematics;Geometry;Euclidean Distance;
+FeynmanICh9Eq18;I.9.18;Newton's law of gravitation (gravitational potential energy);Physics;Classical Mechanics;Gravitational Force;x
+FeynmanICh10Eq7;I.10.7;Relativistic mass (special relativity);Physics;Relativity;Special Relativity;
+FeynmanICh11Eq19;I.11.19;Dot product of two 3D vectors;Mathematics;Linear Algebra;Vector Operations;
+FeynmanICh12Eq1;I.12.1;Total magnetic moment (dipole moment);Physics;Electromagnetism;Magnetic Dipole;
+FeynmanICh12Eq2;I.12.2;Coulomb's law (electrostatic force);Physics;Electromagnetism;Electrostatics;
+FeynmanICh12Eq4;I.12.4;Electric field magnitude from point charge;Physics;Electromagnetism;Electric Field;
+FeynmanICh12Eq5;I.12.5;Electric force on charge in field;Physics;Electromagnetism;Electric Force;
+FeynmanICh12Eq11;I.12.11;Lorentz force (combined electric and magnetic);Physics;Electromagnetism;Lorentz Force;
+FeynmanICh13Eq4;I.13.4;Kinetic energy in 3D;Physics;Classical Mechanics;Kinetic Energy;
+FeynmanICh13Eq12;I.13.12;Gravitational potential energy difference;Physics;Classical Mechanics;Gravitational Potential;
+FeynmanICh14Eq3;I.14.3;Gravitational potential energy;Physics;Classical Mechanics;Gravitational Potential;
+FeynmanICh14Eq4;I.14.4;Elastic potential energy (Hooke's law);Physics;Classical Mechanics;Elastic Energy;
+FeynmanICh15Eq10;I.15.1;Relativistic momentum;Physics;Relativity;Special Relativity;
+FeynmanICh15Eq3t;I.15.3t;Lorentz transformation for time (special relativity);Physics;Relativity;Lorentz Transformation;x
+FeynmanICh15Eq3x;I.15.3x;Lorentz transformation for position (special relativity);Physics;Relativity;Lorentz Transformation;x
+FeynmanICh16Eq6;I.16.6;Relativistic velocity addition;Physics;Relativity;Velocity Addition;
+FeynmanICh18Eq4;I.18.4;Center of mass position;Physics;Classical Mechanics;Center of Mass;
+FeynmanICh18Eq12;I.18.12;Torque (moment of force);Physics;Classical Mechanics;Rotational Dynamics;
+FeynmanICh18Eq16;I.18.16;Angular momentum;Physics;Classical Mechanics;Angular Momentum;
+FeynmanICh24Eq6;I.24.6;Energy of forced harmonic oscillator;Physics;Classical Mechanics;Harmonic Oscillator;
+FeynmanICh25Eq13;I.25.13;Voltage across capacitor;Physics;Electromagnetism;Capacitance;
+FeynmanICh26Eq2;I.26.2;Snell's law (refraction angle);Physics;Optics;Refraction;
+FeynmanICh27Eq6;I.27.6;Thin lens equation (image distance);Physics;Optics;Geometric Optics;
+FeynmanICh29Eq4;I.29.4;Wave number (k);Physics;Wave Mechanics;Wave Properties;
+FeynmanICh29Eq16;I.29.16;Law of cosines (distance in polar coords);Mathematics;Geometry;Trigonometry;x
+FeynmanICh30Eq3;I.30.3;Multiple-slit diffraction intensity;Physics;Optics;Diffraction;x
+FeynmanICh30Eq5;I.30.5;Diffraction grating angle;Physics;Optics;Diffraction;
+FeynmanICh32Eq5;I.32.5;Abraham-Lorentz radiation power;Physics;Electromagnetism;Radiation;
+FeynmanICh32Eq17;I.32.17;Rayleigh scattering intensity;Physics;Optics;Light Scattering;x
+FeynmanICh34Eq10;I.34.1;Doppler shift (approaching);Physics;Wave Mechanics;Doppler Effect;
+FeynmanICh34Eq8;I.34.8;Cyclotron frequency;Physics;Electromagnetism;Particle Dynamics;
+FeynmanICh34Eq14;I.34.14;Relativistic Doppler shift;Physics;Relativity;Doppler Effect;x
+FeynmanICh34Eq27;I.34.27;Photon energy (quantum mechanics);Physics;Quantum Mechanics;Photon Energy;
+FeynmanICh37Eq4;I.37.4;Interference of two waves;Physics;Optics;Wave Interference;x
+FeynmanICh38Eq12;I.38.12;Bohr radius (atomic physics);Physics;Quantum Mechanics;Atomic Structure;
+FeynmanICh39Eq10;I.39.1;Internal energy of monatomic ideal gas;Physics;Thermodynamics;Ideal Gas;
+FeynmanICh39Eq11;I.39.11;Internal energy of ideal gas;Physics;Thermodynamics;Ideal Gas;
+FeynmanICh39Eq22;I.39.22;Ideal gas law (pressure);Physics;Thermodynamics;Gas Laws;x
+FeynmanICh40Eq1;I.40.1;Barometric formula (atmospheric pressure);Physics;Fluid Dynamics;Atmospheric Physics;x
+FeynmanICh41Eq16;I.41.16;Planck's law (blackbody radiation);Physics;Quantum Mechanics;Blackbody Radiation;x
+FeynmanICh43Eq16;I.43.16;Drift current;Physics;Solid State Physics;Charge Transport;
+FeynmanICh43Eq31;I.43.31;Einstein relation (diffusion coefficient);Physics;Statistical Mechanics;Transport Phenomena;
+FeynmanICh43Eq43;I.43.43;Mean free path in gas;Physics;Statistical Mechanics;Kinetic Theory;
+FeynmanICh44Eq4;I.44.4;Entropy change in isothermal expansion;Physics;Thermodynamics;Entropy;x
+FeynmanICh47Eq23;I.47.23;Speed of sound in gas;Physics;Fluid Dynamics;Acoustics;
+FeynmanICh48Eq2;I.48.2;Relativistic energy (E=mcÂ²/y);Physics;Relativity;Mass-Energy Equivalence;
+FeynmanICh50Eq26;I.50.26;Nonlinear oscillation;Physics;Classical Mechanics;Nonlinear Dynamics;x
+FeynmanIICh2Eq42;II.2.42;Heat flow (Fourier's law);Physics;Thermodynamics;Heat Transfer;
+FeynmanIICh3Eq24;II.3.24;Intensity from point source (inverse square law);Physics;Wave Mechanics;Intensity;
+FeynmanIICh4Eq23;II.4.23;Electric potential from point charge;Physics;Electromagnetism;Electric Potential;
+FeynmanIICh6Eq11;II.6.11;Electric potential from dipole;Physics;Electromagnetism;Dipole Field;
+FeynmanIICh6Eq15a;II.6.15a;Electric field component from dipole (cylindrical coords);Physics;Electromagnetism;Dipole Field;x
+FeynmanIICh6Eq15b;II.6.15b;Electric field from dipole (spherical coords);Physics;Electromagnetism;Dipole Field;x
+FeynmanIICh8Eq7;II.8.7;Capacitance of spherical conductor;Physics;Electromagnetism;Capacitance;
+FeynmanIICh8Eq31;II.8.31;Electric field energy density;Physics;Electromagnetism;Energy Density;
+FeynmanIICh10Eq9;II.10.9;Electric field in dielectric;Physics;Electromagnetism;Dielectric Materials;
+FeynmanIICh11Eq3;II.11.3;Driven harmonic oscillator amplitude;Physics;Classical Mechanics;Forced Oscillation;
+FeynmanIICh11Eq17;II.11.17;Polarization density (Langevin function approximation);Physics;Electromagnetism;Polarization;x
+FeynmanIICh11Eq20;II.11.20;Polarization (electric susceptibility);Physics;Electromagnetism;Polarization;x
+FeynmanIICh11Eq27;II.11.27;Clausius-Mossotti relation (polarization);Physics;Electromagnetism;Dielectric Materials;x
+FeynmanIICh11Eq28;II.11.28;Dielectric constant from polarizability;Physics;Electromagnetism;Dielectric Materials;x
+FeynmanIICh13Eq17;II.13.17;Magnetic field from current (Biot-Savart);Physics;Electromagnetism;Magnetic Field;
+FeynmanIICh13Eq23;II.13.23;Relativistic charge density;Physics;Relativity;Charge Density;x
+FeynmanIICh13Eq34;II.13.34;Relativistic current density;Physics;Relativity;Current Density;x
+FeynmanIICh15Eq4;II.15.4;Magnetic dipole potential energy;Physics;Electromagnetism;Magnetic Dipole;
+FeynmanIICh15Eq5;II.15.5;Electric dipole potential energy;Physics;Electromagnetism;Electric Dipole;
+FeynmanIICh21Eq32;II.21.32;LiÃ©nard-Wiechert potential (moving charge);Physics;Electromagnetism;Retarded Potential;
+FeynmanIICh24Eq17;II.24.17;Wave number in waveguide;Engineering;Electrical Engineering;Waveguide Theory;x
+FeynmanIICh27Eq16;II.27.16;Poynting vector magnitude;Physics;Electromagnetism;Energy Flow;
+FeynmanIICh27Eq18;II.27.18;Electric energy flux;Physics;Electromagnetism;Energy Density;
+FeynmanIICh34Eq2a;II.34.2a;Magnetic dipole moment (current loop);Physics;Electromagnetism;Magnetic Moment;
+FeynmanIICh34Eq2;II.34.2;Magnetic moment (orbiting charge);Physics;Electromagnetism;Magnetic Moment;
+FeynmanIICh34Eq11;II.34.11;Larmor precession frequency;Physics;Quantum Mechanics;Spin Precession;
+FeynmanIICh34Eq29a;II.34.29a;Bohr magneton;Physics;Quantum Mechanics;Magnetic Moment;
+FeynmanIICh34Eq29b;II.34.29b;Zeeman effect energy splitting;Physics;Quantum Mechanics;Atomic Spectroscopy;
+FeynmanIICh35Eq18;II.35.18;Paramagnetism (Brillouin function approx);Physics;Solid State Physics;Magnetism;x
+FeynmanIICh35Eq21;II.35.21;Magnetization (Langevin function);Physics;Solid State Physics;Magnetization;x
+FeynmanIICh36Eq38;II.36.38;Magnetization with electric contribution;Physics;Solid State Physics;Magneto-Electric Coupling;x
+FeynmanIICh37Eq1;II.37.1;Magnetic field in material;Physics;Solid State Physics;Magnetic Materials;
+FeynmanIICh38Eq3;II.38.3;Hooke's law for stress/strain (force);Engineering;Mechanical Engineering;Elasticity;
+FeynmanIICh38Eq14;II.38.14;Shear modulus from Young's modulus;Engineering;Mechanical Engineering;Material Properties;
+FeynmanIIICh4Eq32;III.4.32;Bose-Einstein distribution;Physics;Statistical Mechanics;Quantum Statistics;
+FeynmanIIICh4Eq33;III.4.33;Average energy (Bose-Einstein statistics);Physics;Statistical Mechanics;Quantum Statistics;x
+FeynmanIIICh7Eq38;III.7.38;Gyromagnetic ratio times field;Physics;Quantum Mechanics;Spin Dynamics;
+FeynmanIIICh8Eq54;III.8.54;Quantum transition probability (time-dependent);Physics;Quantum Mechanics;Time Evolution;
+FeynmanIIICh9Eq52;III.9.52;Rabi oscillation transition rate;Physics;Quantum Mechanics;Quantum Optics;x
+FeynmanIIICh10Eq19;III.10.19;Energy in 3D magnetic field;Physics;Quantum Mechanics;Zeeman Energy;x
+FeynmanIIICh12Eq43;III.12.43;Quantized angular momentum;Physics;Quantum Mechanics;Angular Momentum;
+FeynmanIIICh13Eq18;III.13.18;Fermi's golden rule (transition rate);Physics;Quantum Mechanics;Perturbation Theory;
+FeynmanIIICh14Eq14;III.14.14;Shockley diode equation;Engineering;Electrical Engineering;Semiconductor Devices;
+FeynmanIIICh15Eq12;III.15.12;Tight-binding dispersion relation;Physics;Solid State Physics;Band Structure;
+FeynmanIIICh15Eq14;III.15.14;Effective mass in quantum well;Physics;Quantum Mechanics;Quantum Confinement;
+FeynmanIIICh15Eq27;III.15.27;Reciprocal lattice vector;Physics;Solid State Physics;Crystallography;
+FeynmanIIICh17Eq37;III.17.37;Angular modulation function;Mathematics;Applied Mathematics;Signal Processing;
+FeynmanIIICh19Eq51;III.19.51;Hydrogen atom energy levels (Bohr model);Physics;Quantum Mechanics;Atomic Physics;
+FeynmanIIICh21Eq20;III.21.20;Current density in quantum mechanics;Physics;Quantum Mechanics;Electromagnetic Coupling;x
+FeynmanBonus1;Bonus1.0;Mott scattering cross-section (relativistic Rutherford);Physics;Nuclear Physics;Scattering Theory;x
+FeynmanBonus2;Bonus2.0;Effective potential in two-body problem;Physics;Classical Mechanics;Central Force Motion;x
+FeynmanBonus3;Bonus3.0;Orbit equation (conic section with eccentricity);Physics;Classical Mechanics;Orbital Mechanics;x
+FeynmanBonus4;Bonus4.0;Radial velocity (classical orbital mechanics);Physics;Classical Mechanics;Orbital Dynamics;x
+FeynmanBonus5;Bonus5.0;Kepler's third law (orbital period);Astronomy;Celestial Mechanics;Keplerian Orbits;x
+FeynmanBonus6;Bonus6.0;Eccentricity of Coulomb/Kepler orbit;Physics;Classical Mechanics;Central Force Orbits;x
+FeynmanBonus7;Bonus7.0;Friedmann equation (Hubble parameter, $H = \dot{a}/a$);Astronomy;Cosmology;Expansion Dynamics;x
+FeynmanBonus8;Bonus8.0;Compton scattering (scattered photon energy);Physics;Quantum Mechanics;Photon Scattering;
+FeynmanBonus9;Bonus9.0;Gravitational wave power loss (binary system);Physics;General Relativity;Gravitational Radiation;x
+FeynmanBonus10;Bonus10.0;Relativistic aberration angle;Physics;Relativity;Light Aberration;x
+FeynmanBonus11;Bonus11.0;Fraunhofer diffraction (N-slit interference pattern);Physics;Optics;Diffraction Patterns;x
+FeynmanBonus12;Bonus12.0;Electric field from grounded conducting sphere (image charge method);Physics;Electromagnetism;Electrostatic Boundary Problems;x
+FeynmanBonus13;Bonus13.0;Coulomb potential (law of cosines form for arbitrary geometry);Physics;Electromagnetism;Electric Potential;x
+FeynmanBonus14;Bonus14.0;Induced dipole potential (dielectric sphere in uniform field);Physics;Electromagnetism;Dielectric Response;x
+FeynmanBonus15;Bonus15.0;Relativistic Doppler shift (general angle);Physics;Relativity;Doppler Effect;x
+FeynmanBonus16;Bonus16.0;Relativistic Hamiltonian (charged particle in EM field, minimal coupling);Physics;Relativity;Relativistic Dynamics;x
+FeynmanBonus17;Bonus17.0;Hamiltonian (anharmonic oscillator with cubic nonlinearity);Physics;Classical Mechanics;Hamiltonian Mechanics;x
+FeynmanBonus18;Bonus18.0;Friedmann equation (total energy density from curvature);Astronomy;Cosmology;Energy Density;
+FeynmanBonus19;Bonus19.0;Friedmann equation (effective pressure, equation of state parameter $w=\alpha$);Astronomy;Cosmology;Equation of State;x
+FeynmanBonus20;Bonus20.0;Klein-Nishina formula (quantum Compton differential cross-section);Physics;Quantum Mechanics;Scattering Cross-Section;x

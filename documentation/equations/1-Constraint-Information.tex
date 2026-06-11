@@ -1,0 +1,597 @@
+
+\begin{longtable}{llllp{4cm}p{4cm}p{4cm}}
+      Equation & Closed-Form Expression & Variable domains & Variables & Description & Taxonomy & SRSD Hard \\
+      & &  & & & (Domain / Subdomain / Specific) & \\
+      \hline
+\hline
+I.6.2a & $\frac{\sqrt{2} e^{- \frac{\theta^{2}}{2}}}{2 \sqrt{\pi}}$ & $\theta \in [1.0,3.0]$ & $\theta$: angle/position & Gaussian distribution (normal distribution with $\sigma=1$) & Mathematics / Probability Theory / Gaussian Distribution & \checkmark \\ 
+\hline
+I.6.2 & $\frac{\sqrt{2} e^{- \frac{\theta^{2}}{2 \sigma^{2}}}}{2 \sqrt{\pi} \sigma}$ & $\sigma \in [1.0,3.0]$ & $\sigma$: std deviation & Gaussian/normal distribution probability density & Mathematics / Probability Theory / Gaussian Distribution & \checkmark \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: variable &  &  & \\ 
+\hline
+I.6.2b & $\frac{\sqrt{2} e^{- \frac{\left(\theta - \theta_{1}\right)^{2}}{2 \sigma^{2}}}}{2 \sqrt{\pi} \sigma}$ & $\sigma \in [1.0,3.0]$ & $\sigma$: std deviation & Gaussian distribution with mean $\theta_1$ & Mathematics / Probability Theory / Gaussian Distribution & \checkmark \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: variable &  &  & \\
+ &  & $\theta_1 \in [1.0,3.0]$ & $\theta_1$: mean &  &  & \\ 
+\hline
+I.8.14 & $\sqrt{\left(- x_{1} + x_{2}\right)^{2} + \left(- y_{1} + y_{2}\right)^{2}}$ & $\mathit{x1} \in [1.0,5.0]$ & $x_1$: x-coordinate of point 1 & Euclidean distance between two points in 2D & Mathematics / Geometry / Euclidean Distance & \\
+ &  & $\mathit{x2} \in [1.0,5.0]$ & $x_2$: x-coordinate of point 2 &  &  & \\
+ &  & $\mathit{y1} \in [1.0,5.0]$ & $y_1$: y-coordinate of point 1 &  &  & \\
+ &  & $\mathit{y2} \in [1.0,5.0]$ & $y_2$: y-coordinate of point 2 &  &  & \\ 
+\hline
+I.9.18 & $\frac{G m_{1} m_{2}}{\left(- x_{1} + x_{2}\right)^{2} + \left(- y_{1} + y_{2}\right)^{2} + \left(- z_{1} + z_{2}\right)^{2}}$ & $\mathit{m1} \in [1.0,2.0]$ & $m_1$: mass of body 1 & Newton's law of gravitation (gravitational potential energy) & Physics / Classical Mechanics / Gravitational Force & \checkmark \\
+ &  & $\mathit{m2} \in [1.0,2.0]$ & $m_2$: mass of body 2 &  &  & \\
+ &  & $\mathit{G} \in [1.0,2.0]$ & $G$: gravitational constant &  &  & \\
+ &  & $\mathit{x1} \in [3.0,4.0]$ & $x_1$: x-coordinate of body 1 &  &  & \\
+ &  & $\mathit{x2} \in [1.0,2.0]$ & $x_2$: x-coordinate of body 2 &  &  & \\
+ &  & $\mathit{y1} \in [3.0,4.0]$ & $y_1$: y-coordinate of body 1 &  &  & \\
+ &  & $\mathit{y2} \in [1.0,2.0]$ & $y_2$: y-coordinate of body 2 &  &  & \\
+ &  & $\mathit{z1} \in [3.0,4.0]$ & $z_1$: z-coordinate of body 1 &  &  & \\
+ &  & $\mathit{z2} \in [1.0,2.0]$ & $z_2$: z-coordinate of body 2 &  &  & \\
+\hline
+I.10.7 & $\frac{m_{0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\mathit{m_0} \in [1.0,5.0]$ & $m_0$: rest mass & Relativistic mass (special relativity) & Physics / Relativity / Special Relativity & \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.11.19 & $x_{1} y_{1} + x_{2} y_{2} + x_{3} y_{3}$ & $\mathit{x1} \in [1.0,5.0]$ & $x_1$: 1st component of vector $\mathbf{x}$ & Dot product of two 3D vectors & Mathematics / Linear Algebra / Vector Operations & \\
+ &  & $\mathit{x2} \in [1.0,5.0]$ & $x_2$: 2nd component of vector $\mathbf{x}$ &  &  & \\
+ &  & $\mathit{x3} \in [1.0,5.0]$ & $x_3$: 3rd component of vector $\mathbf{x}$ &  &  & \\
+ &  & $\mathit{y1} \in [1.0,5.0]$ & $y_1$: 1st component of vector $\mathbf{y}$ &  &  & \\
+ &  & $\mathit{y2} \in [1.0,5.0]$ & $y_2$: 2nd component of vector $\mathbf{y}$ &  &  & \\
+ &  & $\mathit{y3} \in [1.0,5.0]$ & $y_3$: 3rd component of vector $\mathbf{y}$ &  &  & \\
+\hline
+I.12.1 & $Nn \mu$ & $\mathit{mu} \in [1.0,5.0]$ & $Nn$: number density & Total magnetic moment (dipole moment) & Physics / Electromagnetism / Magnetic Dipole & \\
+ &  & $\mathit{Nn} \in [1.0,5.0]$ & $\mu$: magnetic moment &  &  & \\
+\hline
+I.12.2 & $\frac{q_{1} q_{2}}{4 \pi \epsilon r^{2}}$ & $\mathit{q1} \in [1.0,5.0]$ & $q_1$: charge of particle 1 & Coulomb's law (electrostatic force) & Physics / Electromagnetism / Electrostatics & \\
+ &  & $\mathit{q2} \in [1.0,5.0]$ & $q_2$: charge of particle 2 &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance between charges &  &  & \\
+\hline
+I.12.4 & $\frac{q_{1}}{4 \pi \epsilon r^{2}}$ & $\mathit{q1} \in [1.0,5.0]$ & $q_1$: charge & Electric field magnitude from point charge & Physics / Electromagnetism / Electric Field & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+\hline
+I.12.5 & $Ef q_{2}$ & $\mathit{q2} \in [1.0,5.0]$ & $Ef$: electric field & Electric force on charge in field & Physics / Electromagnetism / Electric Force & \\
+ &  & $\mathit{Ef} \in [1.0,5.0]$ & $q_2$: charge &  &  & \\
+\hline
+I.12.11 & $q \left(B v \sin{\left(\theta \right)} + Ef\right)$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Lorentz force (combined electric and magnetic) & Physics / Electromagnetism / Lorentz Force & \\
+ &  & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: electric field &  &  & \\
+ &  & $\mathit{B} \in [1.0,5.0]$ & $B$: magnetic field &  &  & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: velocity &  &  & \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle &  &  & \\
+\hline
+I.13.4 & $\frac{m \left(u^{2} + v^{2} + w^{2}\right)}{2}$ & $\mathit{m} \in [1.0,5.0]$ & $m$: mass of particle & Kinetic energy in 3D & Physics / Classical Mechanics / Kinetic Energy & \\
+ &  & $\mathit{u} \in [1.0,5.0]$ & $u$: velocity x-component &  &  & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: velocity y-component &  &  & \\
+ &  & $\mathit{w} \in [1.0,5.0]$ & $w$: velocity z-component &  &  & \\
+\hline
+I.13.12 & $G m_{1} m_{2} \cdot \left(\frac{1}{r_{2}} - \frac{1}{r_{1}}\right)$ & $\mathit{G} \in [1.0,5.0]$ & $G$: gravitational constant & Gravitational potential energy difference & Physics / Classical Mechanics / Gravitational Potential & \\
+ &  & $\mathit{m1} \in [1.0,5.0]$ & $m_1$: mass of body 1 &  &  & \\
+ &  & $\mathit{m2} \in [1.0,5.0]$ & $m_2$: mass of body 2 &  &  & \\
+ &  & $\mathit{r1} \in [1.0,5.0]$ & $r_1$: initial radial distance &  &  & \\
+ &  & $\mathit{r2} \in [1.0,5.0]$ & $r_2$: final radial distance &  &  & \\
+\hline
+I.14.3 & $g m z$ & $\mathit{m} \in [1.0,5.0]$ & $m$: mass & Gravitational potential energy & Physics / Classical Mechanics / Gravitational Potential & \\
+ &  & $\mathit{g} \in [1.0,5.0]$ & $g$: grav acceleration &  &  & \\
+ &  & $\mathit{z} \in [1.0,5.0]$ & $z$: height &  &  & \\
+\hline
+I.14.4 & $\frac{k_{spring} x^{2}}{2}$ & $\mathit{k_{spring}} \in [1.0,5.0]$ & $k_{spring}$: spring constant & Elastic potential energy (Hooke's law) & Physics / Classical Mechanics / Elastic Energy & \\
+ &  & $\mathit{x} \in [1.0,5.0]$ & $x$: displacement &  &  & \\
+\hline
+I.15.3x & $\frac{- t u + x}{\sqrt{1 - \frac{u^{2}}{c^{2}}}}$ & $\mathit{x} \in [5.0,10.0]$ & $x$: position & Lorentz transformation for position (special relativity) & Physics / Relativity / Lorentz Transformation & \checkmark \\
+ &  & $\mathit{u} \in [1.0,2.0]$ & $t$: time &  &  & \\
+ &  & $\mathit{c} \in [3.0,20.0]$ & $u$: relative velocity &  &  & \\
+ &  & $\mathit{t} \in [1.0,2.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.15.3t & $\frac{t - \frac{u x}{c^{2}}}{\sqrt{1 - \frac{u^{2}}{c^{2}}}}$ & $\mathit{x} \in [1.0,5.0]$ & $t$: time & Lorentz transformation for time (special relativity) & Physics / Relativity / Lorentz Transformation & \checkmark \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $x$: position &  &  & \\
+ &  & $\mathit{u} \in [1.0,2.0]$ & $u$: relative velocity &  &  & \\
+ &  & $\mathit{t} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.15.1 & $\frac{m_{0} v}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\mathit{m_0} \in [1.0,5.0]$ & $m_0$: rest mass & Relativistic momentum & Physics / Relativity / Special Relativity & \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.16.6 & $\frac{u + v}{1 + \frac{u v}{c^{2}}}$ & $\mathit{u} \in [1.0,5.0]$ & $u$: velocity of object in frame S' & Relativistic velocity addition & Physics / Relativity / Velocity Addition & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: velocity of frame S' relative to S &  &  & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light in vacuum &  &  & \\
+\hline
+I.18.4 & $\frac{m_{1} r_{1} + m_{2} r_{2}}{m_{1} + m_{2}}$ & $\mathit{m1} \in [1.0,5.0]$ & $m_1$: mass of particle 1 & Center of mass position & Physics / Classical Mechanics / Center of Mass & \\
+ &  & $\mathit{m2} \in [1.0,5.0]$ & $m_2$: mass of particle 2 &  &  & \\
+ &  & $\mathit{r1} \in [1.0,5.0]$ & $r_1$: position of particle 1 &  &  & \\
+ &  & $\mathit{r2} \in [1.0,5.0]$ & $r_2$: position of particle 2 &  &  & \\
+\hline
+I.18.12 & $F r \sin{\left(\theta \right)}$ & $\mathit{r} \in [1.0,5.0]$ & $F$: force & Torque (moment of force) & Physics / Classical Mechanics / Rotational Dynamics & \\
+ &  & $\mathit{F} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+ &  & $\theta \in [0.0,5.0]$ & $\theta$: angle &  &  & \\
+\hline
+I.18.14 & $m r v \sin{\left(\theta \right)}$ & $\mathit{m} \in [1.0,5.0]$ & $m$: mass & Angular momentum & Physics / Classical Mechanics / Angular Momentum & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: velocity &  &  & \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle &  &  & \\
+\hline
+I.24.6 & $\frac{m x^{2} \left(\omega^{2} + \omega_{0}^{2}\right)}{4}$ & $\mathit{m} \in [1.0,3.0]$ & $m$: mass & Energy of forced harmonic oscillator & Physics / Classical Mechanics / Harmonic Oscillator & \\
+ &  & $\omega \in [1.0,3.0]$ & $\omega$: driving frequency &  &  & \\
+ &  & $\omega_0 \in [1.0,3.0]$ & $\omega_0$: natural frequency &  &  & \\
+ &  & $\mathit{x} \in [1.0,3.0]$ & $x$: amplitude &  &  & \\
+\hline
+I.25.13 & $\frac{q}{C}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Voltage across capacitor & Physics / Electromagnetism / Capacitance & \\
+ &  & $\mathit{C} \in [1.0,5.0]$ & $C$: capacitance &  &  & \\
+\hline
+I.26.2 & $\arcsin{\left(n \sin{\left(\theta_{2} \right)} \right)}$ & $\mathit{n} \in [0.0,1.0]$ & $n$: refractive index & Snell's law (refraction angle) & Physics / Optics / Refraction & \\
+ &  & $\theta_2 \in [1.0,5.0]$ & $\theta_2$: incident angle &  &  & \\
+\hline
+I.27.6 & $\frac{1}{\frac{n}{d_{2}} + \frac{1}{d_{1}}}$ & $\mathit{d1} \in [1.0,5.0]$ & $d_1$: object distance & Thin lens equation (image distance) & Physics / Optics / Geometric Optics & \\ 
+ &  & $\mathit{d2} \in [1.0,5.0]$ & $d_2$: focal length &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: refractive index &  &  & \\ 
+\hline
+I.29.4 & $\frac{\omega}{c}$ & $\omega \in [1.0,10.0]$ & $\omega$: angular frequency & Wave number (k) & Physics / Wave Mechanics / Wave Properties & \\
+ &  & $\mathit{c} \in [1.0,10.0]$ & $c$: wave speed &  &  & \\
+\hline
+I.29.16 & $\sqrt{x_{1}^{2} - 2 x_{1} x_{2} \cos{\left(\theta_{1} - \theta_{2} \right)} + x_{2}^{2}}$ & $\mathit{x1} \in [1.0,5.0]$ & $x_1$: magnitude of vector 1 & Law of cosines (distance in polar coords) & Mathematics / Geometry / Trigonometry & \checkmark \\
+ &  & $\mathit{x2} \in [1.0,5.0]$ & $x_2$: magnitude of vector 2 &  &  & \\
+ &  & $\theta_1 \in [1.0,5.0]$ & $\theta_1$: polar angle of vector 1 &  &  & \\
+ &  & $\theta_2 \in [1.0,5.0]$ & $\theta_2$: polar angle of vector 2 &  &  & \\
+\hline
+I.30.3 & $\frac{Int_{0} \sin^{2}{\left(\frac{n \theta}{2} \right)}}{\sin^{2}{\left(\frac{\theta}{2} \right)}}$ & $\mathit{Int_0} \in [1.0,5.0]$ & $Int_0$: max intensity & Multiple-slit diffraction intensity & Physics / Optics / Diffraction & \checkmark \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: number of slits &  &  & \\
+\hline
+I.30.5 & $\arcsin{\left(\frac{lambd}{d n} \right)}$ & $\mathit{lambd} \in [1.0,2.0]$ & $\lambda$: wavelength & Diffraction grating angle & Physics / Optics / Diffraction & \\
+ &  & $\mathit{d} \in [2.0,5.0]$ & $d$: grating spacing &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: order &  &  & \\
+\hline
+I.32.5 & $\frac{a^{2} q^{2}}{6 \pi c^{3} \epsilon}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Abraham-Lorentz radiation power & Physics / Electromagnetism / Radiation & \\
+ &  & $\mathit{a} \in [1.0,5.0]$ & $a$: acceleration &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.32.17 & $\frac{4 \pi Ef^{2} c \epsilon \omega^{4} r^{2}}{3 \left(\omega^{2} - \omega_{0}^{2}\right)^{2}}$ & $\mathit{Ef} \in [1.0,2.0]$ & $Ef$: electric field amplitude & Rayleigh scattering intensity & Physics / Optics / Light Scattering & \checkmark \\
+ &  & $\epsilon \in [1.0,2.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{c} \in [1.0,2.0]$ & $c$: speed of light &  &  & \\
+ &  & $\omega \in [1.0,2.0]$ & $\omega$: incident light frequency &  &  & \\
+ &  & $\omega_0 \in [3.0,5.0]$ & $\omega_0$: resonance frequency &  &  & \\
+ &  & $\mathit{r} \in [1.0,2.0]$ & $r$: particle radius &  &  & \\
+\hline
+I.34.8 & $\frac{B q v}{p}$ & $\mathit{B} \in [1.0,5.0]$ & $B$: magnetic field strength & Cyclotron frequency & Physics / Electromagnetism / Particle Dynamics & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: particle charge &  &  & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: particle velocity &  &  & \\
+ &  & $\mathit{p} \in [1.0,5.0]$ & $p$: particle momentum &  &  & \\
+\hline
+I.34.1 & $\frac{\omega_{0}}{1 - \frac{v}{c}}$ & $\mathit{c} \in [3.0,10.0]$ & $\omega_0$: rest frequency & Doppler shift (approaching) & Physics / Wave Mechanics / Doppler Effect & \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\omega_0 \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.34.14 & $\frac{\omega_{0} \cdot \left(1 + \frac{v}{c}\right)}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\mathit{c} \in [3.0,10.0]$ & $\omega_0$: rest frequency & Relativistic Doppler shift & Physics / Relativity / Doppler Effect & \checkmark \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\omega_0 \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.34.27 & $\frac{h \omega}{2 \pi}$ & $\omega \in [1.0,5.0]$ & $h$: Planck's constant & Photon energy (quantum mechanics) & Physics / Quantum Mechanics / Photon Energy & \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $\omega$: angular frequency &  &  & \\
+\hline
+I.37.4 & $I_{1} + I_{2} + 2 \sqrt{I_{1} I_{2}} \cos{\left(\delta \right)}$ & $\mathit{I1} \in [1.0,5.0]$ & $I_1$: intensity of wave 1 & Interference of two waves & Physics / Optics / Wave Interference & \checkmark \\
+ &  & $\mathit{I2} \in [1.0,5.0]$ & $I_2$: intensity of wave 2 &  &  & \\
+ &  & $\delta \in [1.0,5.0]$ & $\delta$: phase difference between waves &  &  & \\
+\hline
+I.38.12 & $\frac{\epsilon h^{2}}{\pi m q^{2}}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Bohr radius (atomic physics) & Physics / Quantum Mechanics / Atomic Structure & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: electron mass &  &  & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: electron charge &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of vacuum &  &  & \\
+\hline
+I.39.1 & $\frac{3 V pr}{2}$ & $\mathit{V} \in [1.0,5.0]$ & $V$: gas volume & Internal energy of monatomic ideal gas & Physics / Thermodynamics / Ideal Gas & \\
+ &  & $\mathit{pr} \in [1.0,5.0]$ & $pr$: gas pressure &  &  & \\
+\hline
+I.39.11 & $\frac{V pr}{\gamma - 1}$ & $\mathit{V} \in [1.0,5.0]$ & $V$: gas volume & Internal energy of ideal gas & Physics / Thermodynamics / Ideal Gas & \\
+ &  & $\mathit{pr} \in [1.0,5.0]$ & $pr$: gas pressure &  &  & \\
+ &  & $\gamma \in [2.0,5.0]$ & $\gamma$: heat capacity ratio $C_p/C_v$ &  &  & \\
+\hline
+I.39.22 & $\frac{T kb n}{V}$ & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature & Ideal gas law (pressure) & Physics / Thermodynamics / Gas Laws & \checkmark \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: number of molecules &  &  & \\
+ &  & $\mathit{V} \in [1.0,5.0]$ & $V$: gas volume &  &  & \\
+\hline
+I.40.1 & $n_{0} e^{- \frac{g m x}{T kb}}$ & $\mathit{n_0} \in [1.0,5.0]$ & $n_0$: reference density & Barometric formula (atmospheric pressure) & Physics / Fluid Dynamics / Atmospheric Physics & \checkmark \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: molecular mass &  &  & \\
+ &  & $\mathit{x} \in [1.0,5.0]$ & $x$: height &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: temperature &  &  & \\
+ &  & $\mathit{g} \in [1.0,5.0]$ & $g$: gravity &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+I.41.16 & $\frac{h \omega^{3}}{2 \pi^{3} c^{2} \left(e^{\frac{h \omega}{2 \pi T kb}} - 1\right)}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Planck's law (blackbody radiation) & Physics / Quantum Mechanics / Blackbody Radiation & \checkmark \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: angular frequency of radiation &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.43.16 & $\frac{Volt \mu_{drift} q}{d}$ & $\mu_{drift} \in [1.0,5.0]$ & $\mu_{drift}$: drift mobility & Drift current & Physics / Solid State Physics / Charge Transport & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: charge &  &  & \\
+ &  & $\mathit{Volt} \in [1.0,5.0]$ & $Volt$: voltage &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: distance &  &  & \\
+\hline
+I.43.31 & $T kb mob$ & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature & Einstein relation (diffusion coefficient) & Physics / Statistical Mechanics / Transport Phenomena & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\mathit{mob} \in [1.0,5.0]$ & $mob$: carrier mobility &  &  & \\
+\hline
+I.43.43 & $\frac{kb v}{A \left(\gamma - 1\right)}$ & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant & Mean free path in gas & Physics / Statistical Mechanics / Kinetic Theory & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: mean molecular velocity &  &  & \\
+ &  & $\mathit{A} \in [1.0,5.0]$ & $A$: molecular cross-section &  &  & \\
+ &  & $\gamma \in [2.0,5.0]$ & $\gamma$: heat capacity ratio &  &  & \\
+\hline
+I.44.4 & $T kb n \log{\left(\frac{V_{2}}{V_{1}} \right)}$ & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature & Entropy change in isothermal expansion & Physics / Thermodynamics / Entropy & \checkmark \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: number of particles &  &  & \\
+ &  & $\mathit{V1} \in [1.0,5.0]$ & $V_1$: initial volume &  &  & \\
+ &  & $\mathit{V2} \in [1.0,5.0]$ & $V_2$: final volume &  &  & \\
+\hline
+I.47.23 & $\sqrt{\frac{\gamma pr}{\rho}}$ & $\gamma \in [1.0,5.0]$ & $\gamma$: heat capacity ratio & Speed of sound in gas & Physics / Fluid Dynamics / Acoustics & \\
+ &  & $\mathit{pr} \in [1.0,5.0]$ & $pr$: pressure &  &  & \\
+ &  & $\rho \in [1.0,5.0]$ & $\rho$: density &  &  & \\
+\hline
+I.48.2 & $\frac{c^{2} m}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\mathit{m} \in [1.0,5.0]$ & $m$: rest mass & Relativistic energy (E=mc²/y) & Physics / Relativity / Mass-Energy Equivalence & \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+I.50.26 & $x_{1} \left(\alpha \cos^{2}{\left(\omega t \right)} + \cos{\left(\omega t \right)}\right)$ & $\mathit{x1} \in [1.0,3.0]$ & $x_1$: amplitude & Nonlinear oscillation & Physics / Classical Mechanics / Nonlinear Dynamics & \checkmark \\
+ &  & $\omega \in [1.0,3.0]$ & $\omega$: frequency &  &  & \\
+ &  & $\mathit{t} \in [1.0,3.0]$ & $t$: time &  &  & \\
+ &  & $\alpha \in [1.0,3.0]$ & $\alpha$: nonlinearity param &  &  & \\
+\hline
+II.2.42 & $\frac{A \kappa \left(- T_{1} + T_{2}\right)}{d}$ & $\kappa \in [1.0,5.0]$ & $\kappa$: thermal conductivity & Heat flow (Fourier's law) & Physics / Thermodynamics / Heat Transfer & \\
+ &  & $\mathit{T1} \in [1.0,5.0]$ & $T_1$: temperature at cold side &  &  & \\
+ &  & $\mathit{T2} \in [1.0,5.0]$ & $T_2$: temperature at hot side &  &  & \\
+ &  & $\mathit{A} \in [1.0,5.0]$ & $A$: cross-sectional area &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: material thickness &  &  & \\
+\hline
+II.3.24 & $\frac{Pwr}{4 \pi r^{2}}$ & $\mathit{Pwr} \in [1.0,5.0]$ & $Pwr$: total power & Intensity from point source (inverse square law) & Physics / Wave Mechanics / Intensity & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+\hline
+II.4.23 & $\frac{q}{4 \pi \epsilon r}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Electric potential from point charge & Physics / Electromagnetism / Electric Potential & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+\hline
+II.6.11 & $\frac{p_{d} \cos{\left(\theta \right)}}{4 \pi \epsilon r^{2}}$ & $\mathit{p_d} \in [1.0,3.0]$ & $p_d$: electric dipole moment & Electric potential from dipole & Physics / Electromagnetism / Dipole Field & \\
+ &  & $\epsilon \in [1.0,3.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{r} \in [1.0,3.0]$ & $r$: distance from dipole &  &  & \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: angle from dipole axis &  &  & \\
+\hline
+II.6.15a & $\frac{3 p_{d} z \sqrt{x^{2} + y^{2}}}{4 \pi \epsilon r^{5}}$ & $\mathit{p_d} \in [1.0,3.0]$ & $p_d$: electric dipole moment & Electric field component from dipole (cylindrical coords) & Physics / Electromagnetism / Dipole Field & \checkmark \\
+ &  & $\epsilon \in [1.0,3.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{x} \in [1.0,3.0]$ & $x$: Cartesian x-coordinate &  &  & \\
+ &  & $\mathit{y} \in [1.0,3.0]$ & $y$: Cartesian y-coordinate &  &  & \\
+ &  & $\mathit{z} \in [1.0,3.0]$ & $z$: Cartesian z-coordinate &  &  & \\
+ &  & $\mathit{r} \in [1.0,3.0]$ & $r$: radial distance from dipole &  &  & \\
+\hline
+II.6.15b & $\frac{3 p_{d} \sin{\left(\theta \right)} \cos{\left(\theta \right)}}{4 \pi \epsilon r^{3}}$ & $\mathit{p_d} \in [1.0,3.0]$ & $p_d$: electric dipole moment & Electric field from dipole (spherical coords) & Physics / Electromagnetism / Dipole Field & \checkmark \\
+ &  & $\epsilon \in [1.0,3.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{r} \in [1.0,3.0]$ & $r$: radial distance from dipole &  &  & \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: polar angle from dipole axis &  &  & \\
+\hline
+II.8.7 & $\frac{3 q^{2}}{20 \pi d \epsilon}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Capacitance of spherical conductor & Physics / Electromagnetism / Capacitance & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: radius &  &  & \\
+\hline
+II.8.31 & $\frac{Ef^{2} \epsilon}{2}$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: electric field magnitude & Electric field energy density & Physics / Electromagnetism / Energy Density & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+\hline
+II.10.9 & $\frac{\sigma_{den}}{\epsilon \left(\chi + 1\right)}$ & $\sigma_{den}\in [1.0,5.0]$ & $\sigma_{den}$: charge density & Electric field in dielectric & Physics / Electromagnetism / Dielectric Materials & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\chi \in [1.0,5.0]$ & $\chi$: susceptibility &  &  & \\
+\hline
+II.11.3 & $\frac{Ef q}{m \left(- \omega^{2} + \omega_{0}^{2}\right)}$ & $\mathit{Ef} \in [1.0,3.0]$ & $Ef$: driving electric field & Driven harmonic oscillator amplitude & Physics / Classical Mechanics / Forced Oscillation & \\
+ &  & $\mathit{q} \in [1.0,3.0]$ & $q$: particle charge &  &  & \\
+ &  & $\mathit{m} \in [1.0,3.0]$ & $m$: particle mass &  &  & \\
+ &  & $\omega_0 \in [3.0,5.0]$ & $\omega_0$: natural frequency &  &  & \\
+ &  & $\omega \in [1.0,2.0]$ & $\omega$: driving frequency &  &  & \\ 
+\hline
+II.11.17 & $n_{0} \left(\frac{Ef p_{d} \cos{\left(\theta \right)}}{T kb} + 1\right)$ & $\mathit{n_0} \in [1.0,3.0]$ & $n_0$: reference number density & Polarization density (Langevin function approximation) & Physics / Electromagnetism / Polarization & \checkmark \\
+ &  & $\mathit{Ef} \in [1.0,3.0]$ & $Ef$: applied electric field &  &  & \\
+ &  & $\mathit{p_d} \in [1.0,3.0]$ & $p_d$: molecular dipole moment &  &  & \\
+ &  & $\mathit{T} \in [1.0,3.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,3.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: angle between field and dipole &  &  & \\
+\hline
+II.11.20 & $\frac{Ef n_{\rho} p_{d}^{2}}{3 T kb}$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: applied electric field & Polarization (electric susceptibility) & Physics / Electromagnetism / Polarization & \checkmark \\
+ &  & $n_{\rho} \in [1.0,5.0]$ & $n_{\rho}$: molecular number density &  &  & \\
+ &  & $\mathit{p_d} \in [1.0,5.0]$ & $p_d$: molecular dipole moment &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+II.11.27 & $\frac{Ef \alpha \epsilon n}{- \frac{\alpha n}{3} + 1}$ & $\mathit{Ef} \in [1.0,2.0]$ & $Ef$: applied electric field & Clausius-Mossotti relation (polarization) & Physics / Electromagnetism / Dielectric Materials & \checkmark \\
+ &  & $\mathit{n} \in [0.0,1.0]$ & $n$: molecular number density &  &  & \\
+ &  & $\alpha \in [0.0,1.0]$ & $\alpha$: molecular polarizability &  &  & \\
+ &  & $\epsilon \in [1.0,2.0]$ & $\epsilon$: permittivity of vacuum &  &  & \\
+\hline
+II.11.28 & $\frac{\alpha n}{- \frac{\alpha n}{3} + 1} + 1$ & $\alpha \in [0.0,1.0]$ & $\alpha$: molecular polarizability & Dielectric constant from polarizability & Physics / Electromagnetism / Dielectric Materials & \checkmark \\
+ &  & $\mathit{n} \in [0.0,1.0]$ & $n$: molecular number density &  &  & \\
+\hline
+II.13.17 & $\frac{I}{2 \pi c^{2} \epsilon r}$ & $\mathit{I} \in [1.0,5.0]$ & $I$: electric current & Magnetic field from current (Biot-Savart) & Physics / Electromagnetism / Magnetic Field & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of vacuum &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance from wire &  &  & \\
+\hline
+II.13.23 & $\frac{\rho_{c_0}}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\rho_{c_0} \in [1.0,5.0]$ & $\rho_{c_0}$: rest charge density & Relativistic charge density & Physics / Relativity / Charge Density & \checkmark \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+II.13.34 & $\frac{\rho_{c_0} v}{\sqrt{1 - \frac{v^{2}}{c^{2}}}}$ & $\rho_{c_0} \in [1.0,5.0]$ & $\rho_{c_0}$: rest charge density & Relativistic current density & Physics / Relativity / Current Density & \checkmark \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+II.15.4 & $- B mom \cos{\left(\theta \right)}$ & $\mathit{B} \in [1.0,5.0]$ & $B$: magnetic field strength & Magnetic dipole potential energy & Physics / Electromagnetism / Magnetic Dipole & \\
+ &  & $\mathit{mom} \in [1.0,5.0]$ & $mom$: magnetic dipole moment &  &  & \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle between field and moment &  &  & \\
+\hline
+II.15.5 & $- Ef p_{d} \cos{\left(\theta \right)}$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: electric field strength & Electric dipole potential energy & Physics / Electromagnetism / Electric Dipole & \\
+ &  & $\mathit{p_d} \in [1.0,5.0]$ & $p_d$: electric dipole moment &  &  & \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle between field and dipole &  &  & \\
+\hline
+II.21.32 & $\frac{q}{4 \pi \epsilon r \left(1 - \frac{v}{c}\right)}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Liénard-Wiechert potential (moving charge) & Physics / Electromagnetism / Retarded Potential & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance &  &  & \\
+ &  & $\mathit{v} \in [1.0,2.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{c} \in [3.0,10.0]$ & $c$: speed of light &  &  & \\
+\hline
+II.24.17 & $\sqrt{- \frac{\pi^{2}}{d^{2}} + \frac{\omega^{2}}{c^{2}}}$ & $\omega \in [4.0,6.0]$ & $\omega$: frequency & Wave number in waveguide & Engineering / Electrical Engineering / Waveguide Theory & \checkmark \\
+ &  & $\mathit{c} \in [1.0,2.0]$ & $c$: wave speed &  &  & \\
+ &  & $\mathit{d} \in [2.0,4.0]$ & $d$: waveguide dimension &  &  & \\
+\hline
+II.27.16 & $Ef^{2} c \epsilon$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: electric field amplitude & Poynting vector magnitude & Physics / Electromagnetism / Energy Flow & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+\hline
+II.27.18 & $Ef^{2} \epsilon$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: electric field amplitude & Electric energy flux & Physics / Electromagnetism / Energy Density & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+\hline
+II.34.2a & $\frac{q v}{2 \pi r}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: charge & Magnetic dipole moment (current loop) & Physics / Electromagnetism / Magnetic Moment & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: velocity &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: radius &  &  & \\
+\hline
+II.34.2 & $\frac{q r v}{2}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: particle charge & Magnetic moment (orbiting charge) & Physics / Electromagnetism / Magnetic Moment & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: orbital radius &  &  & \\
+ &  & $\mathit{v} \in [1.0,5.0]$ & $v$: orbital velocity &  &  & \\
+\hline
+II.34.11 & $\frac{B g\_ q}{2 m}$ & $\mathit{B} \in [1.0,5.0]$ & $B$: magnetic field strength & Larmor precession frequency & Physics / Quantum Mechanics / Spin Precession & \\
+ &  & $\mathit{\_} \in [1.0,5.0]$ & $g$: Landé g-factor &  &  & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: particle charge &  &  & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: particle mass &  &  & \\
+\hline
+II.34.29a & $\frac{h q}{4 \pi m}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Bohr magneton & Physics / Quantum Mechanics / Magnetic Moment & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: electron charge &  &  & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: electron mass &  &  & \\
+\hline
+II.34.29b & $\frac{2 \pi B Jz \_ mom}{h}$ & $\mathit{B} \in [1.0,5.0]$ & $B$: applied magnetic field & Zeeman effect energy splitting & Physics / Quantum Mechanics / Atomic Spectroscopy & \\
+ &  & $\mathit{Jz} \in [1.0,5.0]$ & $Jz$: z-component of angular momentum &  &  & \\
+ &  & $\mathit{\_} \in [1.0,5.0]$ & $g$: Landé g-factor &  &  & \\
+ &  & $\mathit{mom} \in [1.0,5.0]$ & $mom$: Bohr magneton &  &  & \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant &  &  & \\
+\hline
+II.35.18 & $\frac{n_{0}}{e^{\frac{B mom}{T kb}} + e^{- \frac{B mom}{T kb}}}$ & $\mathit{n_0} \in [1.0,3.0]$ & $n_0$: total number density & Paramagnetism (Brillouin function approx) & Physics / Solid State Physics / Magnetism & \checkmark \\
+ &  & $\mathit{B} \in [1.0,3.0]$ & $B$: applied magnetic field &  &  & \\
+ &  & $\mathit{mom} \in [1.0,3.0]$ & $mom$: magnetic moment per particle &  &  & \\
+ &  & $\mathit{T} \in [1.0,3.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,3.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+II.35.21 & $mom n_{\rho} \tanh{\left(\frac{B mom}{T kb} \right)}$ & $\mathit{mom} \in [1.0,5.0]$ & $mom$: magnetic moment per particle & Magnetization (Langevin function) & Physics / Solid State Physics / Magnetization & \checkmark \\
+ &  & $n_{\rho} \in [1.0,5.0]$ & $n_{\rho}$: particle number density &  &  & \\
+ &  & $\mathit{B} \in [1.0,5.0]$ & $B$: applied magnetic field &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+II.36.38 & $\frac{H mom}{T kb} + \frac{M \alpha mom}{T c^{2} \epsilon kb}$ & $\mathit{H} \in [1.0,3.0]$ & $H$: applied magnetic field & Magnetization with electric contribution & Physics / Solid State Physics / Magneto-Electric Coupling & \checkmark \\
+ &  & $\mathit{M} \in [1.0,3.0]$ & $M$: magnetization &  &  & \\
+ &  & $\mathit{mom} \in [1.0,3.0]$ & $mom$: magnetic moment per particle &  &  & \\
+ &  & $\mathit{T} \in [1.0,3.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,3.0]$ & $kb$: Boltzmann constant &  &  & \\
+ &  & $\alpha \in [1.0,3.0]$ & $\alpha$: magneto-electric coupling constant &  &  & \\
+ &  & $\epsilon \in [1.0,3.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{c} \in [1.0,3.0]$ & $c$: speed of light &  &  & \\
+\hline
+II.37.1 & $B mom \left(\chi + 1\right)$ & $\mathit{B} \in [1.0,5.0]$ & $B$: applied magnetic field & Magnetic field in material & Physics / Solid State Physics / Magnetic Materials & \\
+ &  & $\mathit{mom} \in [1.0,5.0]$ & $mom$: magnetic moment per particle &  &  & \\
+ &  & $\chi \in [1.0,5.0]$ & $\chi$: magnetic susceptibility &  &  & \\
+\hline
+II.38.3 & $\frac{A Y x}{d}$ & $\mathit{Y} \in [1.0,5.0]$ & $Y$: Young's modulus & Hooke's law for stress/strain (force) & Engineering / Mechanical Engineering / Elasticity & \\
+ &  & $\mathit{A} \in [1.0,5.0]$ & $A$: cross-sectional area &  &  & \\
+ &  & $\mathit{x} \in [1.0,5.0]$ & $x$: elongation (extension) &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: original length &  &  & \\
+\hline
+II.38.14 & $\frac{Y}{2 \sigma + 2}$ & $\mathit{Y} \in [1.0,5.0]$ & $Y$: Young's modulus & Shear modulus from Young's modulus & Engineering / Mechanical Engineering / Material Properties & \\
+ &  & $\sigma \in [1.0,5.0]$ & $\sigma$: Poisson's ratio &  &  & \\
+\hline
+III.4.32 & $\frac{1}{e^{\frac{h \omega}{2 \pi T kb}} - 1}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Bose-Einstein distribution & Physics / Statistical Mechanics / Quantum Statistics & \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: angular frequency &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+III.4.33 & $\frac{h \omega}{2 \pi \left(e^{\frac{h \omega}{2 \pi T kb}} - 1\right)}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Average energy (Bose-Einstein statistics) & Physics / Statistical Mechanics / Quantum Statistics & \checkmark \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: angular frequency &  &  & \\
+ &  & $\mathit{T} \in [1.0,5.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,5.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+III.7.38 & $\frac{4 \pi B mom}{h}$ & $\mathit{B} \in [1.0,5.0]$ & $B$: magnetic field & Gyromagnetic ratio times field & Physics / Quantum Mechanics / Spin Dynamics & \\
+ &  & $\mathit{mom} \in [1.0,5.0]$ & $mom$: magnetic dipole moment &  &  & \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant &  &  & \\
+\hline
+III.8.54 & $\sin^{2}{\left(\frac{2 \pi E_{n} t}{h} \right)}$ & $\mathit{E_n} \in [1.0,2.0]$ & $E_n$: energy & Quantum transition probability (time-dependent) & Physics / Quantum Mechanics / Time Evolution & \\
+ &  & $\mathit{t} \in [1.0,2.0]$ & $t$: time &  &  & \\
+ &  & $\mathit{h} \in [1.0,4.0]$ & $h$: Planck's constant &  &  & \\
+\hline
+III.9.52 & $\frac{8 \pi Ef p_{d} \sin^{2}{\left(\frac{t \left(\omega - \omega_{0}\right)}{2} \right)}}{h t \left(\omega - \omega_{0}\right)^{2}}$ & $\mathit{Ef} \in [1.0,3.0]$ & $Ef$: electric field amplitude & Rabi oscillation transition rate & Physics / Quantum Mechanics / Quantum Optics & \checkmark \\
+ &  & $\mathit{p_d} \in [1.0,3.0]$ & $p_d$: electric dipole moment &  &  & \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: driving frequency &  &  & \\
+ &  & $\omega_0 \in [1.0,5.0]$ & $\omega_0$: resonance frequency &  &  & \\
+ &  & $\mathit{t} \in [1.0,3.0]$ & $t$: time &  &  & \\
+ &  & $\mathit{h} \in [1.0,3.0]$ & $h$: Planck's constant &  &  & \\
+\hline
+III.10.19 & $mom \sqrt{Bx^{2} + By^{2} + Bz^{2}}$ & $\mathit{mom} \in [1.0,5.0]$ & $mom$: magnetic dipole moment & Energy in 3D magnetic field & Physics / Quantum Mechanics / Zeeman Energy & \checkmark \\
+ &  & $\mathit{Bx} \in [1.0,5.0]$ & $Bx$: x-component of magnetic field &  &  & \\
+ &  & $\mathit{By} \in [1.0,5.0]$ & $By$: y-component of magnetic field &  &  & \\
+ &  & $\mathit{Bz} \in [1.0,5.0]$ & $Bz$: z-component of magnetic field &  &  & \\
+\hline
+III.12.43 & $\frac{h n}{2 \pi}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Quantized angular momentum & Physics / Quantum Mechanics / Angular Momentum & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: principal quantum number &  &  & \\
+\hline
+III.13.18 & $\frac{4 \pi E_{n} d^{2} k}{h}$ & $\mathit{E_n} \in [1.0,5.0]$ & $E_n$: energy & Fermi's golden rule (transition rate) & Physics / Quantum Mechanics / Perturbation Theory & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: matrix element &  &  & \\
+ &  & $\mathit{k} \in [1.0,5.0]$ & $k$: density of states &  &  & \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant &  &  & \\
+\hline
+III.14.14 & $I_{0} \left(e^{\frac{Volt q}{T kb}} - 1\right)$ & $\mathit{I_0} \in [1.0,5.0]$ & $I_0$: saturation current & Shockley diode equation & Engineering / Electrical Engineering / Semiconductor Devices & \\
+ &  & $\mathit{Volt} \in [1.0,2.0]$ & $Volt$: applied voltage &  &  & \\
+ &  & $\mathit{q} \in [1.0,2.0]$ & $q$: elementary charge &  &  & \\
+ &  & $\mathit{T} \in [1.0,2.0]$ & $T$: absolute temperature &  &  & \\
+ &  & $\mathit{kb} \in [1.0,2.0]$ & $kb$: Boltzmann constant &  &  & \\
+\hline
+III.15.12 & $2 U \left(1 - \cos{\left(d k \right)}\right)$ & $\mathit{U} \in [1.0,5.0]$ & $U$: coupling energy & Tight-binding dispersion relation & Physics / Solid State Physics / Band Structure & \\
+ &  & $\mathit{k} \in [1.0,5.0]$ & $k$: wave vector &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: lattice constant &  &  & \\
+\hline
+III.15.14 & $\frac{h^{2}}{8 \pi^{2} E_{n} d^{2}}$ & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant & Effective mass in quantum well & Physics / Quantum Mechanics / Quantum Confinement & \\
+ &  & $\mathit{E_n} \in [1.0,5.0]$ & $E_n$: energy &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: well width &  &  & \\
+\hline
+III.15.27 & $\frac{2 \pi \alpha}{d n}$ & $\alpha \in [1.0,5.0]$ & $\alpha$: lattice parameter & Reciprocal lattice vector & Physics / Solid State Physics / Crystallography & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: Miller index &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: spacing &  &  & \\
+\hline
+III.17.37 & $\beta \left(\alpha \cos{\left(\theta \right)} + 1\right)$ & $\beta \in [1.0,5.0]$ & $\beta$: amplitude parameter & Angular modulation function & Mathematics / Applied Mathematics / Signal Processing & \\
+ &  & $\alpha \in [1.0,5.0]$ & $\alpha$: modulation depth &  &  & \\
+ &  & $\theta \in [1.0,5.0]$ & $\theta$: angle &  &  & \\
+\hline
+III.19.51 & $- \frac{m q^{4}}{8 \epsilon^{2} h^{2} n^{2}}$ & $\mathit{m} \in [1.0,5.0]$ & $m$: electron mass & Hydrogen atom energy levels (Bohr model) & Physics / Quantum Mechanics / Atomic Physics & \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: electron charge &  &  & \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant &  &  & \\
+ &  & $\mathit{n} \in [1.0,5.0]$ & $n$: principal quantum number &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity &  &  & \\
+\hline
+III.21.20 & $- \frac{A_{vec} q \rho_{c_0}}{m}$ & $A_{vec} \in [1.0,5.0]$ & $A_{vec}$: magnetic vector potential & Current density in quantum mechanics & Physics / Quantum Mechanics / Electromagnetic Coupling & \checkmark \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: electric charge &  &  & \\
+ &  & $\rho_{c_0} \in [1.0,5.0]$ & $\rho_{c_0}$: charge density &  &  & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: particle mass &  &  & \\
+\hline
+Bonus1.0 & $\frac{Z_{1}^{2} Z_{2}^{2} \alpha^{2} c^{2} \hbar^{2}}{16 E_{n}^{2} \sin^{4}{\left(\frac{\theta}{2} \right)}}$ & $\mathit{Z_1} \in [1.0,2.0]$ & $Z_1$: atomic number of projectile & Mott scattering cross-section (relativistic Rutherford) & Physics / Nuclear Physics / Scattering Theory & \checkmark \\
+ &  & $\mathit{Z_2} \in [1.0,2.0]$ & $Z_2$: atomic number of target &  &  & \\
+ &  & $\alpha \in [1.0,2.0]$ & $\alpha$: fine structure constant &  &  & \\
+ &  & $\hbar \in [1.0,2.0]$ & $\hbar$: reduced Planck constant &  &  & \\
+ &  & $\mathit{c} \in [1.0,2.0]$ & $c$: speed of light &  &  & \\
+ &  & $\mathit{E_n} \in [1.0,3.0]$ & $E_n$: kinetic energy of projectile &  &  & \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: scattering angle &  &  & \\
+\hline
+Bonus2.0 & $\frac{k_{G} m \left(\sqrt{\frac{2 E_{n} L^{2}}{k_{G}^{2} m} + 1} \cos{\left(\theta_{1} - \theta_{2} \right)} + 1\right)}{L^{2}}$ & $\mathit{m} \in [1.0,3.0]$ & $m$: reduced mass of system & Effective potential in two-body problem & Physics / Classical Mechanics / Central Force Motion & \checkmark \\
+ &  & $\mathit{k_G} \in [1.0,3.0]$ & $k_G$: gravitational coupling $Gm_1m_2$ &  &  & \\
+ &  & $\mathit{L} \in [1.0,3.0]$ & $L$: total angular momentum &  &  & \\
+ &  & $\mathit{E_n} \in [1.0,3.0]$ & $E_n$: total mechanical energy &  &  & \\
+ &  & $\theta_1 \in [0.0,6.0]$ & $\theta_1$: current true anomaly &  &  & \\
+ &  & $\theta_2 \in [0.0,6.0]$ & $\theta_2$: periapsis argument &  &  & \\
+\hline
+Bonus3.0 & $\frac{d \left(1 - \alpha^{2}\right)}{\alpha \cos{\left(\theta_{1} - \theta_{2} \right)} + 1}$ & $\mathit{d} \in [1.0,3.0]$ & $d$: semi-latus rectum of orbit & Orbit equation (conic section with eccentricity) & Physics / Classical Mechanics / Orbital Mechanics & \checkmark \\
+ &  & $\alpha \in [2.0,4.0]$ & $\alpha$: orbital eccentricity &  &  & \\
+ &  & $\theta_1 \in [4.0,5.0]$ & $\theta_1$: current true anomaly &  &  & \\
+ &  & $\theta_2 \in [4.0,5.0]$ & $\theta_2$: argument of periapsis &  &  & \\
+\hline
+Bonus4.0 & $\sqrt{2} \sqrt{\frac{E_{n} - \frac{L^{2}}{2 m r^{2}} - U}{m}}$ & $\mathit{m} \in [1.0,3.0]$ & $m$: mass & Radial velocity (classical orbital mechanics) & Physics / Classical Mechanics / Orbital Dynamics & \checkmark \\
+ &  & $\mathit{E_n} \in [8.0,12.0]$ & $E_n$: total energy &  &  & \\
+ &  & $\mathit{U} \in [1.0,3.0]$ & $U$: potential energy &  &  & \\
+ &  & $\mathit{L} \in [1.0,3.0]$ & $L$: angular momentum &  &  & \\
+ &  & $\mathit{r} \in [1.0,3.0]$ & $r$: radial distance &  &  & \\
+\hline
+Bonus5.0 & $\frac{2 \pi d^{\frac{3}{2}}}{\sqrt{G \left(m_{1} + m_{2}\right)}}$ & $\mathit{d} \in [1.0,3.0]$ & $d$: semi-major axis of orbit & Kepler's third law (orbital period) & Astronomy / Celestial Mechanics / Keplerian Orbits & \checkmark \\
+ &  & $\mathit{G} \in [1.0,3.0]$ & $G$: gravitational constant &  &  & \\
+ &  & $\mathit{m1} \in [1.0,3.0]$ & $m_1$: mass of primary body &  &  & \\
+ &  & $\mathit{m2} \in [1.0,3.0]$ & $m_2$: mass of orbiting body &  &  & \\
+\hline
+Bonus6.0 & $\sqrt{\frac{2 E_{n} L^{2} \epsilon^{2}}{Z_{1}^{2} Z_{2}^{2} m q^{4}} + 1}$ & $\epsilon \in [1.0,3.0]$ & $\epsilon$: permittivity of vacuum & Eccentricity of Coulomb/Kepler orbit & Physics / Classical Mechanics / Central Force Orbits & \checkmark \\
+ &  & $\mathit{L} \in [1.0,3.0]$ & $L$: orbital angular momentum &  &  & \\
+ &  & $\mathit{E_n} \in [1.0,3.0]$ & $E_n$: total mechanical energy &  &  & \\
+ &  & $\mathit{Z_1} \in [1.0,3.0]$ & $Z_1$: charge number of particle 1 &  &  & \\
+ &  & $\mathit{Z_2} \in [1.0,3.0]$ & $Z_2$: charge number of particle 2 &  &  & \\
+ &  & $\mathit{m} \in [1.0,3.0]$ & $m$: reduced mass of system &  &  & \\
+ &  & $\mathit{q} \in [1.0,3.0]$ & $q$: elementary charge &  &  & \\
+\hline
+Bonus7.0 & $\sqrt{\frac{8 \pi G \rho}{3} - \frac{\alpha c^{2}}{d^{2}}}$ & $\mathit{G} \in [1.0,3.0]$ & $G$: grav constant & Friedmann equation (Hubble parameter, $H = \dot{a}/a$) & Astronomy / Cosmology / Expansion Dynamics & \checkmark \\
+ &  & $\rho \in [1.0,3.0]$ & $\rho$: mass density &  &  & \\
+ &  & $\alpha \in [1.0,2.0]$ & $\alpha$: curvature constant &  &  & \\
+ &  & $\mathit{c} \in [1.0,2.0]$ & $c$: speed of light &  &  & \\
+ &  & $\mathit{d} \in [1.0,3.0]$ & $d$: scale factor &  &  & \\
+\hline
+Bonus8.0 & $\frac{E_{n}}{\frac{E_{n} \left(1 - \cos{\left(\theta \right)}\right)}{c^{2} m} + 1}$ & $\mathit{E_n} \in [1.0,3.0]$ & $E_n$: photon energy & Compton scattering (scattered photon energy) & Physics / Quantum Mechanics / Photon Scattering & \\
+ &  & $\mathit{m} \in [1.0,3.0]$ & $m$: electron mass &  &  & \\
+ &  & $\mathit{c} \in [1.0,3.0]$ & $c$: speed of light &  &  & \\
+ &  & $\theta \in [1.0,3.0]$ & $\theta$: scattering angle &  &  & \\
+\hline
+Bonus9.0 & $- \frac{32 G^{4} m_{1}^{2} m_{2}^{2} \left(m_{1} + m_{2}\right)}{5 c^{5} r^{5}}$ & $\mathit{G} \in [1.0,2.0]$ & $G$: gravitational constant & Gravitational wave power loss (binary system) & Physics / General Relativity / Gravitational Radiation & \checkmark \\
+ &  & $\mathit{c} \in [1.0,2.0]$ & $c$: speed of light &  &  & \\
+ &  & $\mathit{m1} \in [1.0,5.0]$ & $m_1$: mass of first body &  &  & \\
+ &  & $\mathit{m2} \in [1.0,5.0]$ & $m_2$: mass of second body &  &  & \\
+ &  & $\mathit{r} \in [1.0,2.0]$ & $r$: orbital separation &  &  & \\
+\hline
+Bonus10.0 & $\arccos{\left(\frac{\cos{\left(\theta_{2} \right)} - \frac{v}{c}}{1 - \frac{v \cos{\left(\theta_{2} \right)}}{c}} \right)}$ & $\mathit{c} \in [4.0,6.0]$ & $c$: speed of light & Relativistic aberration angle & Physics / Relativity / Light Aberration & \checkmark \\
+ &  & $\mathit{v} \in [1.0,3.0]$ & $v$: velocity &  &  & \\
+ &  & $\theta_2 \in [1.0,3.0]$ & $\theta_2$: angle in rest frame &  &  & \\
+\hline
+Bonus11.0 & $\frac{4 I_{0} \sin^{2}{\left(\frac{\alpha}{2} \right)} \sin^{2}{\left(\frac{\delta n}{2} \right)}}{\alpha^{2} \sin^{2}{\left(\frac{\delta}{2} \right)}}$ & $\mathit{I_0} \in [1.0,3.0]$ & $I_0$: max intensity & Fraunhofer diffraction (N-slit interference pattern) & Physics / Optics / Diffraction Patterns & \checkmark \\
+ &  & $\alpha \in [1.0,3.0]$ & $\alpha$: single-slit phase &  &  & \\
+ &  & $\delta \in [1.0,3.0]$ & $\delta$: inter-slit phase &  &  & \\
+ &  & $\mathit{n} \in [1.0,2.0]$ & $n$: number of slits &  &  & \\
+\hline
+Bonus12.0 & $\frac{q \left(4 \pi Volt d \epsilon - \frac{d q y^{3}}{\left(- d^{2} + y^{2}\right)^{2}}\right)}{4 \pi \epsilon y^{2}}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: point charge & Electric field from grounded conducting sphere (image charge method) & Physics / Electromagnetism / Electrostatic Boundary Problems & \checkmark \\
+ &  & $\mathit{Volt} \in [1.0,5.0]$ & $Volt$: potential reference &  &  & \\
+ &  & $\mathit{d} \in [4.0,6.0]$ & $d$: sphere radius &  &  & \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of vacuum &  &  & \\
+ &  & $\mathit{y} \in [1.0,3.0]$ & $y$: distance from sphere center &  &  & \\
+\hline
+Bonus13.0 & $\frac{q}{4 \pi \epsilon \sqrt{d^{2} - 2 d r \cos{\left(\alpha \right)} + r^{2}}}$ & $\mathit{q} \in [1.0,5.0]$ & $q$: point charge magnitude & Coulomb potential (law of cosines form for arbitrary geometry) & Physics / Electromagnetism / Electric Potential & \checkmark \\
+ &  & $\epsilon \in [1.0,5.0]$ & $\epsilon$: permittivity of medium &  &  & \\
+ &  & $\mathit{d} \in [4.0,6.0]$ & $d$: distance from origin to charge &  &  & \\
+ &  & $\mathit{r} \in [1.0,3.0]$ & $r$: distance from origin to field point &  &  & \\
+ &  & $\alpha \in [0.0,6.0]$ & $\alpha$: angle between $\mathbf{d}$ and $\mathbf{r}$ &  &  & \\
+\hline
+Bonus14.0 & $Ef \left(\frac{d^{3} \left(\alpha - 1\right)}{r^{2} \left(\alpha + 2\right)} - r\right) \cos{\left(\theta \right)}$ & $\mathit{Ef} \in [1.0,5.0]$ & $Ef$: external electric field & Induced dipole potential (dielectric sphere in uniform field) & Physics / Electromagnetism / Dielectric Response & \checkmark \\
+ &  & $\alpha \in [1.0,5.0]$ & $\alpha$: relative dielectric constant &  &  & \\
+ &  & $\mathit{d} \in [1.0,5.0]$ & $d$: sphere radius &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: distance from sphere center &  &  & \\
+ &  & $\theta \in [0.0,6.0]$ & $\theta$: polar angle from field direction &  &  & \\
+\hline
+Bonus15.0 & $\frac{\omega \sqrt{1 - \frac{v^{2}}{c^{2}}}}{1 + \frac{v \cos{\left(\theta \right)}}{c}}$ & $\omega \in [1.0,5.0]$ & $\omega$: source frequency (rest frame) & Relativistic Doppler shift (general angle) & Physics / Relativity / Doppler Effect & \checkmark \\
+ &  & $\mathit{v} \in [1.0,3.0]$ & $v$: relative velocity &  &  & \\
+ &  & $\mathit{c} \in [5.0,20.0]$ & $c$: speed of light &  &  & \\
+ &  & $\theta \in [0.0,6.0]$ & $\theta$: angle between velocity and observation &  &  & \\
+\hline
+Bonus16.0 & $Volt q + \sqrt{c^{4} m^{2} + c^{2} \left(- A_{vec} q + p\right)^{2}}$ & $\mathit{Volt} \in [1.0,5.0]$ & $Volt$: scalar potential & Relativistic Hamiltonian (charged particle in EM field, minimal coupling) & Physics / Relativity / Relativistic Dynamics & \checkmark \\
+ &  & $\mathit{q} \in [1.0,5.0]$ & $q$: particle charge &  &  & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: rest mass &  &  & \\
+ &  & $A_{vec} \in [1.0,5.0]$ & $A_{vec}$: magnetic vector potential &  &  & \\
+ &  & $\mathit{p} \in [1.0,5.0]$ & $p$: canonical momentum &  &  & \\
+\hline
+Bonus17.0 & $\frac{m^{2} \omega^{2} x^{2} \left(\frac{\alpha x}{y} + 1\right) + p^{2}}{2 m}$ & $\mathit{m} \in [1.0,5.0]$ & $m$: particle mass & Hamiltonian (anharmonic oscillator with cubic nonlinearity) & Physics / Classical Mechanics / Hamiltonian Mechanics & \checkmark \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: natural angular frequency &  &  & \\
+ &  & $\mathit{p} \in [1.0,5.0]$ & $p$: canonical momentum &  &  & \\
+ &  & $\mathit{x} \in [1.0,5.0]$ & $x$: displacement from equilibrium &  &  & \\
+ &  & $\alpha \in [1.0,5.0]$ & $\alpha$: anharmonicity parameter &  &  & \\
+ &  & $\mathit{y} \in [1.0,5.0]$ & $y$: characteristic length scale &  &  & \\
+\hline
+Bonus18.0 & $\frac{3 \left(H_{G}^{2} + \frac{c^{2} k_{f}}{r^{2}}\right)}{8 \pi G}$ & $\mathit{H_G} \in [1.0,5.0]$ & $H_G$: Hubble parameter & Friedmann equation (total energy density from curvature) & Astronomy / Cosmology / Energy Density & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\mathit{k_f} \in [1.0,5.0]$ & $k_f$: spatial curvature constant &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: scale factor $a(t)$ &  &  & \\
+ &  & $\mathit{G} \in [1.0,5.0]$ & $G$: gravitational constant &  &  & \\
+\hline
+Bonus19.0 & $- \frac{H_{G}^{2} c^{2} \cdot \left(1 - 2 \alpha\right) + \frac{c^{4} k_{f}}{r^{2}}}{8 \pi G}$ & $\mathit{H_G} \in [1.0,5.0]$ & $H_G$: Hubble parameter & Friedmann equation (effective pressure, equation of state parameter $w=\alpha$) & Astronomy / Cosmology / Equation of State & \checkmark \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\alpha \in [1.0,5.0]$ & $\alpha$: equation of state parameter $w$ &  &  & \\
+ &  & $\mathit{k_f} \in [1.0,5.0]$ & $k_f$: spatial curvature constant &  &  & \\
+ &  & $\mathit{r} \in [1.0,5.0]$ & $r$: scale factor $a(t)$ &  &  & \\
+ &  & $\mathit{G} \in [1.0,5.0]$ & $G$: gravitational constant &  &  & \\
+\hline
+Bonus20.0 & $\frac{\alpha^{2} h^{2} \omega_{0}^{2} \left(\frac{\omega}{\omega_{0}} - \sin^{2}{\left(\beta \right)} + \frac{\omega_{0}}{\omega}\right)}{4 \pi c^{2} m^{2} \omega^{2}}$ & $\alpha \in [1.0,5.0]$ & $\alpha$: fine structure constant & Klein-Nishina formula (quantum Compton differential cross-section) & Physics / Quantum Mechanics / Scattering Cross-Section & \checkmark \\
+ &  & $\mathit{h} \in [1.0,5.0]$ & $h$: Planck's constant &  &  & \\
+ &  & $\omega_0 \in [1.0,5.0]$ & $\omega_0$: incident photon frequency &  &  & \\
+ &  & $\omega \in [1.0,5.0]$ & $\omega$: scattered photon frequency &  &  & \\
+ &  & $\mathit{m} \in [1.0,5.0]$ & $m$: electron rest mass &  &  & \\
+ &  & $\mathit{c} \in [1.0,5.0]$ & $c$: speed of light &  &  & \\
+ &  & $\beta \in [0.0,6.0]$ & $\beta$: scattering angle &  &  & \\
+
+ \caption{Equations. }
+ \label{tab:App1:feynman_equations_with_constraints}
+\end{longtable}
